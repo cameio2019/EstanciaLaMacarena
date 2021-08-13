@@ -115,32 +115,21 @@
 }
 
 /*ESTILOS PAGINA*/
-.body {
+body {
   position: relative;
-  width: 100%;
   height: 3780px;
   background: #FFFFFF;
 }
 @media (min-width: 1200px) {
-  .body {
+  body {
     position: relative;
-    max-width: 1420px;
-    height: 4439px;
-    background: #FFFFFF;
-  }
-}
-@media (min-width: 900px) {
-  .body {
-    position: relative;
-    max-width: 1420px;
     height: 4439px;
     background: #FFFFFF;
   }
 }
 @media (min-width: 600px) {
-  .body {
+  body {
     position: relative;
-    max-width: 1420px;
     height: 4439px;
     background: #FFFFFF;
   }
@@ -168,18 +157,6 @@
     flex-direction: row;
   }
 }
-@media (min-width: 900px) {
-  .footer {
-    position: absolute;
-    width: 100%;
-    left: 0%;
-    right: 0%;
-    bottom: 0%;
-    background: rgba(2, 59, 49, 0.8);
-    height: 349px;
-    flex-direction: row;
-  }
-}
 @media (min-width: 600px) {
   .footer {
     position: absolute;
@@ -193,7 +170,6 @@
   }
 }
 .footer .logo {
-  border: 2px solid red;
   height: 220px;
 }
 .footer .logo img {
@@ -204,7 +180,7 @@
 }
 @media (min-width: 1200px) {
   .footer .logo {
-    width: 290px;
+    width: 30%;
     height: 100%;
   }
   .footer .logo img {
@@ -215,22 +191,61 @@
     height: 145px;
   }
 }
+@media (min-width: 600px) {
+  .footer .logo {
+    width: 30%;
+    height: 100%;
+  }
+}
 .footer .links-rrss {
-  border: 2px solid yellow;
   height: 220px;
   display: flex;
   flex-direction: row;
 }
 @media (min-width: 1200px) {
   .footer .links-rrss {
-    width: 290px;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 600px) {
+  .footer .links-rrss {
+    position: relative;
+    width: 20%;
     height: 100%;
   }
 }
 .footer .links-rrss--link {
-  border: 2px solid red;
   height: 220px;
   width: 50%;
+}
+@media (min-width: 1200px) {
+  .footer .links-rrss--link.seguinos {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 208px;
+    top: 82px;
+  }
+}
+@media (min-width: 600px) {
+  .footer .links-rrss--link.seguinos {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    right: -45vw;
+    top: 82px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer .links-rrss--link.macarena {
+    margin-top: 82px;
+  }
+}
+@media (min-width: 600px) {
+  .footer .links-rrss--link.macarena {
+    margin-top: 82px;
+  }
 }
 .footer .links-rrss--link__title {
   margin-left: 15px;
@@ -255,8 +270,37 @@
   color: #F9F9F9;
   text-decoration: none;
 }
+.footer .datos-contacto {
+  height: 220px;
+  color: #F9F9F9;
+  margin-left: 15px;
+}
+.footer .datos-contacto p {
+  letter-spacing: 0.35px;
+  margin: 15px 0px;
+}
+.footer .datos-contacto .icon-blanco {
+  padding-right: 15px;
+}
+@media (min-width: 1200px) {
+  .footer .datos-contacto {
+    position: relative;
+    margin-top: 82px;
+  }
+}
+@media (min-width: 600px) {
+  .footer .datos-contacto {
+    position: relative;
+    margin-top: 82px;
+    width: 30%;
+  }
+}
 
 /*ESTILOS LIBRES*/
+.icon-blanco {
+  fill: #F9F9F9;
+}
+
 /*relleno para navbar*/
 .placeholder {
   background-color: blueviolet;
@@ -269,15 +313,6 @@
   opacity: 50%;
 }
 @media (min-width: 1200px) {
-  .placeholder {
-    position: absolute;
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    opacity: 50%;
-  }
-}
-@media (min-width: 900px) {
   .placeholder {
     position: absolute;
     width: 100%;

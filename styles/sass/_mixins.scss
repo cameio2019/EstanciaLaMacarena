@@ -23,14 +23,10 @@
     }
 }
 
-@mixin tablet-vertical {
-    @media (min-width: 600px) {
-        @content;
-    }
-}
+
 
 @mixin tablet-horizontal {
-    @media (min-width: 900px) {
+    @media (min-width: 600px) {
         @content;
     }
 }
