@@ -1,0 +1,28 @@
+.body {
+  position: relative;
+  width: 375px;
+  height: 3780px;
+  background: #FFFFFF;
+}
+
+/*relleno para navbar*/
+.placeholder {
+  background-color: blueviolet;
+  height: 70px;
+  position: absolute;
+  width: 375px;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+  opacity: 50%;
+}
+
+/*imagen abajo header*/
+.img-estancia {
+  position: absolute;
+  width: 375px;
+  height: 480px;
+  left: 0px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.4);
+}/*# sourceMappingURL=side.css.map */
