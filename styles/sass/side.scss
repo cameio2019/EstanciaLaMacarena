@@ -1,35 +1,275 @@
+@import './variables';
+@import './mixins';
+
+/*estilos UI KIT */
+
+//classes de estilo
+
+.titulo-1 {
+    font-family: $rec-reg;
+    font-size: 45px;
+    line-height: 56px;
+}
+
+.titulo-2 {
+    font-family: $rec-light;
+    font-size: 25px;
+    line-height: 56px;
+}
+
+.btn-texto {
+    font-family: $mess-sb;
+    font-size: 15px;
+    line-height: 56px;
+}
+
+.titulo-web {
+    font-family: $rec-reg;
+    font-size: 60px;
+    line-height: 56px;
+}
+
+.texto-1 {
+    font-family: $mess-reg;
+    font-size: 19px;
+    line-height: 35px;
+}
+
+.texto-2 {
+    font-family: $mess-reg;
+    font-size: 15.5px;
+    line-height: 22px;
+    letter-spacing: 0.35px;
+}
+
+.texto-3 {
+    font-family: $mess-bk;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration-line: underline;
+}
+
+.texto-4 {
+    font-family: $mess-bk;
+    font-size: 12px;
+    line-height: 18px;
+}
 
 
-
-
+/*ESTILOS PAGINA*/
 .body {
     position: relative;
-    width: 375px;
+    width: 100%;
     height: 3780px;
     background: #FFFFFF;
 
+    @include web-laptop {
+        position: relative;
+        max-width: 1420px;
+        height: 4439px;
+        background: #FFFFFF;
+
+    }
+
+    @include tablet-horizontal {
+        position: relative;
+        max-width: 1420px;
+        height: 4439px;
+        background: #FFFFFF;
+
+    }
+
+    @include tablet-vertical {
+        position: relative;
+        max-width: 1420px;
+        height: 4439px;
+        background: #FFFFFF;
+
+    }
+
 }
+
+
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 660px;
+    left: 0px;
+    bottom: 0px;
+    background: rgba(2, 59, 49, 0.8);
+    display: flex;
+    flex-direction: column;
+
+    @include web-laptop {
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%;
+        background: rgba(2, 59, 49, 0.8);
+        height: 349px;
+        flex-direction: row;
+
+    }
+
+    @include tablet-horizontal {
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%;
+        background: rgba(2, 59, 49, 0.8);
+        height: 349px;
+        flex-direction: row;
+
+    }
+
+    @include tablet-vertical {
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        right: 0%;
+        bottom: 0%;
+        background: rgba(2, 59, 49, 0.8);
+        height: 349px;
+        flex-direction: row;
+
+    }
+
+    & .logo {
+        border: 2px solid red;
+        height: 220px;
+
+        & img {
+            margin-left: 18px;
+            margin-top: 40px;
+            width: 140px;
+            height: 140px;
+        }
+
+        @include web-laptop {
+            width: 290px;
+            height: 100%;
+
+            & img {
+                margin-left: 150px;
+                margin-top: 54px;
+                margin-bottom: 155px;
+                width: 145px;
+                height: 145px;
+            }
+
+        }
+
+
+
+
+    }
+
+    & .links-rrss {
+        border: 2px solid yellow;
+        height: 220px;
+        display: flex;
+        flex-direction: row;
+
+        @include web-laptop {
+            width: 290px;
+            height: 100%;
+        }
+
+        &--link {
+            border: 2px solid red;
+            height: 220px;
+            width: 50%;
+
+            &__title {
+                margin-left: 15px;
+                color: $blanco;
+            }
+
+            & .rrss-icon {
+                height: 30px;
+                width: 30px;
+                margin-left: 7.5px;
+                margin-right: 7.5px;
+                margin-top: 10px;
+            }
+
+            & ul {
+                padding-left: 15px;
+
+                & li {
+                    list-style-type: none;
+                    letter-spacing: 0.35px;
+                    margin: 15px 0px;
+
+                    & a {
+                        color: $blanco;
+                        text-decoration: none;
+
+
+                    }
+
+                }
+            }
+        }
+
+
+
+    }
+
+}
+
+/*ESTILOS LIBRES*/
+
 
 /*relleno para navbar*/
 .placeholder {
     background-color: blueviolet;
     height: 70px;
     position: absolute;
-    width: 375px;
+    width: 100%;
     height: 70px;
     left: 0px;
     top: 0px;
     opacity: 50%;
 
+    @include web-laptop {
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        opacity: 50%;
+
+    }
+
+    @include tablet-horizontal {
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        opacity: 50%;
+
+    }
+
+    @include tablet-vertical {
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        opacity: 50%;
+
+    }
+
 }
 
 /*imagen abajo header*/
 
-.img-estancia {
+/*.img-estancia {
     position: absolute;
     width: 375px;
     height: 480px;
     left: 0px;
     top: 0px;
     background: rgba(0, 0, 0, 0.4);
-}
+}*/
