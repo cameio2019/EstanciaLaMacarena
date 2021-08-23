@@ -4,41 +4,201 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/Logo.png"/>
+    <link rel="shortcut icon" href="assets/img/Logo.png"/>
     <script src="https://kit.fontawesome.com/64657f89f8.js" crossorigin="anonymous"></script> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="styles/main.css">
     <title>Estancia La Macarena</title>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
+    <header style="background-image: url('./assets/img/20210502_163554.jpeg');">
+        <nav class="navbar navbar-expand-md navbar-light bg-light p-2 p-md-5">
+            <div class="container-sm">
                 <a class="navbar-brand" href="index.html">
                     <img src="assets/img/Logo - Sin fondo.png" alt="logo" width="100" height="100" class="d-inline-block align-text-top mx-auto">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                <div class="collapse navbar-collapse bg-light" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">La Estancia</a>
+                        <a class="nav-link active" aria-current="page" href="index.html">La Estancia</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Actividades</a>
+                        <a class="nav-link active" href="Actividades.html">Actividades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link active" href="contacto.html">Contacto</a>
                 </ul>
                 
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                        <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-                    </ul>
+                    <div class="d-flex text-center row">
+                        <ul class="d-flex navbar-nav me-3 mb-2 mb-lg-0" id="social">
+                            <li class="me-3"><a href="https://www.instagram.com/lamacarenaestancia/" target="_blank"><img src="assets/img/Boton Redes IG.svg" alt="insta"></a></li>
+                            <li class="me-3"><a href="https://www.facebook.com/lamacarenaestanciaa/" target="_blank"><img class="ml-2" src="assets/img/Boton Redes Facebook.svg" alt="face"></a></li>
+                            <li class="me-3"><a href="https://api.whatsapp.com/send?phone=" target="_blank"><img  src="assets/img/Boton Redes Whatsapp.svg" alt="wp"></a></li>
+                        </ul>        
+                    </div>
+
             </div>
         </nav>
+            <!-- Hero img -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="color-overlay d-flex flex-column justify-content-center align-items-center">
+            <h1 class="titulo-1 mt-1">Descansá y desconectá de la rutina</h1>
+            <p class="titulo-3 mt-5">Descubrí un lugar único ubicado en un campo de 33 hectáreas.</p>
+            
+            <div class="button d-flex flex-column justify-content-center align-items-center mt-5">
+                <a class="btn btnHero mt-5 btn-texto" style="width: 250px !important; height: 30 !important;" href="estancia.html" role="button">L a E s t a n c i a<i class="fas fa-arrow-right text-white ms-5"></i></a>
+            </div>
+        </div>
+    </div>
     </header>
+
+    <!-- Encontranos -->
+    <div class="container-fluid encontDiv">
+        <div class="container overflow-hidden">
+            <div class="row gx-5">
+                <div class="col mt-3">
+                    <div class="p-3">
+                        <h2  style="color: #033B31;" class="titulo-1">Dónde nos encontramos</h2>
+                        Nos encontramos a sólo 70km de CABA . Un lugar rodeado de naturaleza y animales pero con la comodidad de encontrarse a
+                        17km de la ciudad de Luján.
+                        <a style="width: 250px; height: 50;" class="btn btnHero mt-5 p-sm-0 btn-texto" href="contacto.html" role="button">C O N T A C T A N O S<i class="fas fa-arrow-right text-white ms-5"></i></a>
+                    </div>
+                </div>
+                <div class="col mt-3 mb-3">
+                        <div class="p-3 img-fluid maps">
+                            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60207.3820320522!2d-59.25025440324883!3d-34.52262113726499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc7957e741238f%3A0x867f1340a60d79d3!2sLa%20Macarena%20Estancia!5e0!3m2!1ses-419!2sus!4v1629229153887!5m2!1ses-419!2sus" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ofrecemos -->
+    <div class="container  overflow-hidden text-center mt-4">
+
+            <div class="container mt-5">
+                <div class="p-3 titulo-1 mb-5">Qué ofrecemos</div>
+                
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                    
+                    <div class="col mb-5"><img  src="assets/img/Atomo/casa.svg" alt=""></div>
+                    <div class="col mb-5"><img  src="assets/img/Atomo/cama.svg" alt=""></div>
+                    <div class="col mb-5"><img  src="assets/img/Atomo/auto.svg" alt=""></div>
+                    <div class="col mb-5"><img  src="assets/img/Atomo/parrilla.svg" alt=""></div>
+
+                    
+                    <div class="col mt-5"><img  src="assets/img/Atomo/pileta.svg" alt=""></div>
+                    <div class="col mt-5"><img  src="assets/img/Atomo/wifi.svg" alt=""></div>
+                    <div class="col mt-5"><img  src="assets/img/Atomo/mascotas.svg" alt=""></div>
+                    <div class="col mt-5"><img  src="assets/img/Atomo/eventos.svg" alt=""></div>
+                    
+                    <div class="container mt-4"> 
+                        <a style="width: 250px; height: 50;" class="btn btnHero mt-5 p-sm-0 btn-texto" href="Estancia.html" role="button">V E R T O D O<i class="fas fa-arrow-right text-white ms-5"></i></a>
+                    </div>  
+                </div>
+            </div>
+
+            <!-- <div class="container">
+                <img  class="float-end" src="assets/img/Atomo/laurel.svg" alt="">
+            </div> -->
+    </div>
+
+
+    <!-- Actividades-->
+<div class="container overflow-hidden text-center mt-4">
+        <div class="p-3 titulo-1 text-center mt-5 mb-3">Descubrí las actividades locales</div>
+        <div class="p-3 titulo-2 text-center mb-5">Conectate con la naturaleza y el campo</div>
+
+        <div class="row row-cols-1 row-cols-md-4 row-cols-sm-2 g-3 g-md-3 g-sm-2">
+            <div class="col">
+                <div class="card" style="position: relative; width: 250px; height: 400px;">
+                <img  class="img-fluid" src="/assets/img/Card Actividades Webl.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">VISITÁ LA CIUDAD DE LUJÁN</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+
+            </div>
+            </div>
+            <div class="col">
+                <div class="card" style="position: relative; width: 250px; height: 400px;">
+                    <img class="img-fluid"  src="/assets/img/Card Actividades Web1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">CAMINATAS AL AIRE LIBRE</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+
+            </div>
+            </div>
+            <div class="col">
+                <div class="card" style="position: relative; width: 250px; height: 400px;">
+                        <img class="img-fluid" src="/assets/img/Card Actividades Web5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">VOLEYBALL EN EL PARQUE</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="position: relative; width: 250px; height: 400px;">
+                    <img class="img-fluid"  src="/assets/img/Card Actividades Web2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">GASTRONOMÍA LOCAL</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid mt-4"> 
+                <a style="width: 250px; height: 50;" class="btn btnHero mt-5 p-sm-0 btn-texto" href="Estancia.html" role="button">E X P L O R A R  M Á S<i class="fas fa-arrow-right text-white ms-5"></i></a>
+            </div> 
+        </div>
+    </div>
+
+
+        <!-- <div class="col-8 laurel">
+            <img class="float-start" src="assets/img/Atomo/laurel.svg" alt="">
+        </div> -->
+
+
+<footer class="footer">
+        <div class="logo">
+            <img src="/assets/img/Logo - Sin fondo blanco.svg" alt="logo">
+        </div>
+        <div class="links-rrss">
+            <div class="links-rrss--link macarena">
+                <h4 class="texto-3 links-rrss--link__title">La Macarena</h4>
+                <ul>
+                    <li><a class="texto-2" href="index.html">Home</a></li>
+                    <li><a class="texto-2" href="Estancia.html">La Estancia</a></li>
+                    <li><a class="texto-2" href="Actividades.html">Actividades</a></li>
+                    <li><a class="texto-2" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="links-rrss--link seguinos">
+                <h4 class="texto-3 links-rrss--link__title ">Seguinos</h4>
+                <a href="https://www.instagram.com/lamacarenaestancia/" target="_blank"><img class="rrss-icon" src="assets/img/Boton Redes IG.svg" alt="instagram"></a>
+                <a href="https://www.facebook.com/lamacarenaestanciaa/" target="_blank"><img class="rrss-icon" src="assets/img/Boton Redes Facebook.svg" alt="facebook"></a>
+            </div>
+        </div>
+        <div class="datos-contacto">
+            <h4 class="texto-3">Contacto</h4>
+            <p class="texto-2"><img class="rrss-icon icon-blanco" src="assets/img/ubicacion-blanco.svg"
+                    alt="facebook">Ruta 7, km 79, 800, B6700 Lújan, Provincia de Buenos Aires</p>
+            <p class="texto-2"><img class="rrss-icon icon-blanco" src="assets/img/phone-blanco.svg" alt="facebook">+54
+                (11) 1234 5678</p>
+            <p class="texto-2"><img class="rrss-icon icon-blanco" src="assets/img/envelope-blanco.svg"
+                    alt="facebook">lamacarenaestancia@gmail.com</p>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>
 </html>
