@@ -147,6 +147,7 @@ body {
   background-repeat: no-repeat;
   position: absolute;
   background-blend-mode: multiply;
+  z-index: 2;
   border: 5px solid blue;
   width: 296px;
   height: 494px;
@@ -163,6 +164,7 @@ body {
   height: 494px;
   right: -225px;
   top: 1640px;
+  z-index: 2;
 }
 .white-background .laurel-izq {
   background-image: url("/assets/img/laurel izquierda.svg");
@@ -174,12 +176,14 @@ body {
   height: 494px;
   left: 0px;
   top: 2290px;
+  z-index: 2;
 }
 .white-background .color-block {
   border: 5px solid blue;
   background-color: #EFE4D4;
   opacity: 50%;
   width: 100%;
+  z-index: 1;
 }
 
 /*imagen abajo header*/
@@ -242,6 +246,7 @@ body {
   width: 100%;
   top: 560px;
   padding: 1rem;
+  z-index: 3;
 }
 .laCasa h2 {
   color: #033B31;

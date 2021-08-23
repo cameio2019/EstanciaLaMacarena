@@ -93,6 +93,7 @@ body {
         background-repeat: no-repeat;
         position: absolute;
         background-blend-mode: multiply;
+        z-index: 2;
         border: 5px solid blue;
         width: 296px;
         height: 494px;
@@ -112,6 +113,7 @@ body {
         height: 494px;
         right: -225px;
         top: 1640px;
+        z-index: 2;
 
 
     }
@@ -126,6 +128,7 @@ body {
         height: 494px;
         left: 0px;
         top: 2290px;
+        z-index: 2;
 
 
     }
@@ -135,6 +138,7 @@ body {
         background-color: $beige-claro;
         opacity: 50%;
         width: 100%;
+        z-index: 1;
     }
 
 
@@ -215,6 +219,7 @@ body {
     width: 100%;
     top: 560px;
     padding: 1rem;
+    z-index: 3;
 
 
     & h2 {
