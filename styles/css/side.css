@@ -316,6 +316,76 @@ body {
   bottom: 1200px;
 }
 
+.Instalaciones {
+  height: 690px;
+  position: absolute;
+  bottom: 1200px;
+  width: 100%;
+  z-index: 3;
+}
+.Instalaciones h2 {
+  padding-left: 18px;
+  font-size: 32px;
+  line-height: 45px;
+  color: #033B31;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+.Instalaciones .marg-der {
+  border-right: 1px solid #D28E4D;
+}
+.Instalaciones .col {
+  padding: 0px 20px 20px 20px;
+}
+.Instalaciones .areas-inst {
+  border-bottom: 1px solid #D28E4D;
+  width: 90%;
+  margin-left: 10px;
+}
+.Instalaciones .areas-inst h3 {
+  font-size: 16px;
+  line-height: 30px;
+  color: #033B31;
+}
+.Instalaciones .areas-inst ul {
+  padding: 0px;
+}
+.Instalaciones .areas-inst li {
+  list-style: none;
+  font-size: 12px;
+  line-height: 17px;
+  color: #033B31;
+}
+
+.normasCasa {
+  position: absolute;
+  bottom: 715px;
+  border: 5px solid yellow;
+  width: 100%;
+  height: 490px;
+  padding: 25px;
+}
+.normasCasa .normas {
+  border-right: 1px solid #D28E4D;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.normasCasa h3 {
+  font-size: 16px;
+  line-height: 30px;
+}
+.normasCasa p {
+  font-size: 12px;
+  line-height: 17px;
+}
+.normasCasa hr {
+  position: static;
+  width: 180px;
+  height: 0px;
+  border-bottom: 1px solid #D28E4D;
+  opacity: 100%;
+}
+
 .footer {
   position: absolute;
   width: 100%;
