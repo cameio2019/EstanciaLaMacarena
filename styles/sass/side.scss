@@ -82,7 +82,7 @@ body {
 }
 
 .white-background {
-    border: 5px solid green;
+    //border: 5px solid green;
     height: 100%;
     position: absolute;
     width: 100%;
@@ -94,7 +94,7 @@ body {
         position: absolute;
         background-blend-mode: multiply;
         z-index: 2;
-        border: 5px solid blue;
+       // border: 5px solid blue;
         width: 296px;
         height: 494px;
         right: -225px;
@@ -108,7 +108,7 @@ body {
         background-repeat: no-repeat;
         position: absolute;
         background-blend-mode: multiply;
-        border: 5px solid blue;
+       // border: 5px solid blue;
         width: 296px;
         height: 494px;
         right: -225px;
@@ -123,7 +123,7 @@ body {
         background-repeat: no-repeat;
         position: absolute;
         background-blend-mode: multiply;
-        border: 5px solid blue;
+       // border: 5px solid blue;
         width: 296px;
         height: 494px;
         left: 0px;
@@ -134,7 +134,7 @@ body {
     }
 
     .color-block {
-        border: 5px solid blue;
+       // border: 5px solid blue;
         background-color: $beige-claro;
         opacity: 50%;
         width: 100%;
@@ -150,7 +150,7 @@ body {
 
 .banner {
     & .layer {
-        border: 5px solid green;
+       // border: 5px solid green;
         position: absolute;
         width: 100%;
         height: 480px;
@@ -162,7 +162,7 @@ body {
     }
 
     & .content {
-        border: 5px solid yellow;
+       // border: 5px solid yellow;
         position: absolute;
         width: 100%;
         height: 13rem;
@@ -215,7 +215,7 @@ body {
 
 .laCasa {
     position: absolute;
-    border: 5px solid yellow;
+   // border: 5px solid yellow;
     width: 100%;
     top: 560px;
     padding: 1rem;
@@ -247,7 +247,7 @@ body {
 
 
     & .footer-carousel {
-        border: 5px solid yellow;
+      //  border: 5px solid yellow;
         height: 50px;
         bottom: 0px;
         left: 0px;
@@ -265,7 +265,7 @@ body {
 
 .Exteriores {
     position: absolute;
-    border: 5px solid yellow;
+  //  border: 5px solid yellow;
     width: 100%;
     top: 1074px;
     padding: 1rem;
@@ -359,7 +359,7 @@ body {
 .normasCasa {
     position: absolute;
     bottom: 715px;
-    border: 5px solid yellow;
+   // border: 5px solid yellow;
     width: 100%;
     height: 490px;
     padding: 25px;
