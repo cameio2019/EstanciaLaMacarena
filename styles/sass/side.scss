@@ -58,7 +58,7 @@
 
 /*ESTILOS PAGINA*/
 
-body {
+.b-estancia{
     position: relative;
     height: 3780px;
     background: #FFFFFF;
@@ -97,7 +97,7 @@ body {
         // border: 5px solid blue;
         width: 296px;
         height: 494px;
-        right: -225px;
+        right: -230px;
         top: 360px;
 
 
@@ -111,7 +111,7 @@ body {
         // border: 5px solid blue;
         width: 296px;
         height: 494px;
-        right: -225px;
+        right: -230px;
         top: 1640px;
         z-index: 2;
 
@@ -156,7 +156,7 @@ body {
         height: 480px;
         left: 0px;
         top: 0px;
-        z-index: 2;
+        z-index: 3;
         background-color: #000000;
         opacity: 40%;
     }
@@ -321,6 +321,11 @@ body {
     z-index: 3;
     padding-left: 10px;
     padding-right: 10px;
+
+    & .row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
     & h2 {
         padding-left: 18px;
