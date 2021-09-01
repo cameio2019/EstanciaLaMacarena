@@ -213,6 +213,8 @@ body {
   letter-spacing: 0.35px;
   margin-top: 4rem;
   margin-bottom: 0rem;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .banner .img-estancia {
   position: absolute;
@@ -304,6 +306,12 @@ body {
   height: 690px;
   position: absolute;
   bottom: 1200px;
+}
+
+.estancia-cb2 {
+  top: 480px;
+  position: absolute;
+  height: 1340px;
 }
 
 .Instalaciones {
