@@ -1,0 +1,44 @@
+@import './mixins';
+
+/*paleta cromatica*/
+$verde: #033B31;
+$mostaza-claro:#D28E4D;
+$tierra:#9E4F31;
+$beige-claro:#EFE4D4;
+$beige-oscuro:#D7BF9C;
+$blanco:#F9F9F9;
+
+
+/*tipografia*/
+
+/*messina*/
+//llamando las fuentes
+
+@include font('messina-book', '/assets/Tipografias/Messina/MessinaSans-Book');
+@include font('messina-Regular', '/assets/Tipografias/Messina/MessinaSans-Regular');
+@include font('messina-SemiBold', '/assets/Tipografias/Messina/MessinaSans-SemiBold');
+
+/*recoleta*/
+
+@include font('Recoleta-Light', '/assets/Tipografias/Recoleta/Recoleta-Light');
+@include font('Recoleta-Regular', '/assets/Tipografias/Recoleta/Recoleta-Regular');
+
+//var de las fuentes
+
+$rec-reg: Recoleta-Regular;
+$rec-light: Recoleta-Light;
+$mess-bk: messina-book;
+$mess-reg: messina-regular;
+$mess-sb: messina-SemiBold;
+
+
+
+/*sombras*/
+
+$sombra-s:0px 0px 1px rgba(20, 20, 20, 0.04),
+0px 0px 8px rgba(20, 20, 20, 0.08); //border radius 16px
+$sombra-m:0px 0px 1px rgba(20, 20, 20, 0.08),
+0px 1px 8px 2px rgba(20, 20, 20, 0.08); //border radius 16px
+
+
+

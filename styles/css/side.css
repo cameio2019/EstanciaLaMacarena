@@ -1,0 +1,579 @@
+/*tipografias*/
+/*media queries*/
+/* COMO USAR LOS MEDIA QUERIES..
+
+.header-title{
+    font-size: 2rem;
+
+    @include telefono{
+        font size: 1 rem;
+    }
+}
+*/
+/*paleta cromatica*/
+/*tipografia*/
+/*messina*/
+@font-face {
+  font-family: "messina-book";
+  src: url("/assets/Tipografias/Messina/MessinaSans-Book.eot");
+  src: url("/assets/Tipografias/Messina/MessinaSans-Book.eot?#iefix") format("embedded-opentype"), url("/assets/Tipografias/Messina/MessinaSans-Book.woff") format("woff"), url("/assets/Tipografias/Messina/MessinaSans-Book.ttf") format("truetype"), url("/assets/Tipografias/Messina/MessinaSans-Book.svg#messina-book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "messina-Regular";
+  src: url("/assets/Tipografias/Messina/MessinaSans-Regular.eot");
+  src: url("/assets/Tipografias/Messina/MessinaSans-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/Tipografias/Messina/MessinaSans-Regular.woff") format("woff"), url("/assets/Tipografias/Messina/MessinaSans-Regular.ttf") format("truetype"), url("/assets/Tipografias/Messina/MessinaSans-Regular.svg#messina-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "messina-SemiBold";
+  src: url("/assets/Tipografias/Messina/MessinaSans-SemiBold.eot");
+  src: url("/assets/Tipografias/Messina/MessinaSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("/assets/Tipografias/Messina/MessinaSans-SemiBold.woff") format("woff"), url("/assets/Tipografias/Messina/MessinaSans-SemiBold.ttf") format("truetype"), url("/assets/Tipografias/Messina/MessinaSans-SemiBold.svg#messina-SemiBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*recoleta*/
+@font-face {
+  font-family: "Recoleta-Light";
+  src: url("/assets/Tipografias/Recoleta/Recoleta-Light.eot");
+  src: url("/assets/Tipografias/Recoleta/Recoleta-Light.eot?#iefix") format("embedded-opentype"), url("/assets/Tipografias/Recoleta/Recoleta-Light.woff") format("woff"), url("/assets/Tipografias/Recoleta/Recoleta-Light.ttf") format("truetype"), url("/assets/Tipografias/Recoleta/Recoleta-Light.svg#Recoleta-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Recoleta-Regular";
+  src: url("/assets/Tipografias/Recoleta/Recoleta-Regular.eot");
+  src: url("/assets/Tipografias/Recoleta/Recoleta-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/Tipografias/Recoleta/Recoleta-Regular.woff") format("woff"), url("/assets/Tipografias/Recoleta/Recoleta-Regular.ttf") format("truetype"), url("/assets/Tipografias/Recoleta/Recoleta-Regular.svg#Recoleta-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*sombras*/
+/*tipografias*/
+/*media queries*/
+/* COMO USAR LOS MEDIA QUERIES..
+
+.header-title{
+    font-size: 2rem;
+
+    @include telefono{
+        font size: 1 rem;
+    }
+}
+*/
+/*estilos UI KIT */
+.titulo-1 {
+  font-family: Recoleta-Regular;
+  font-size: 45px;
+  line-height: 56px;
+}
+
+.titulo-2 {
+  font-family: Recoleta-Light;
+  font-size: 25px;
+  line-height: 56px;
+}
+
+.btn-texto {
+  font-family: messina-SemiBold;
+  font-size: 15px;
+  line-height: 56px;
+}
+
+.titulo-web {
+  font-family: Recoleta-Regular;
+  font-size: 60px;
+  line-height: 56px;
+}
+
+.texto-1 {
+  font-family: messina-regular;
+  font-size: 19px;
+  line-height: 35px;
+}
+
+.texto-2 {
+  font-family: messina-regular;
+  font-size: 15.5px;
+  line-height: 22px;
+  letter-spacing: 0.35px;
+}
+
+.texto-3 {
+  font-family: messina-book;
+  font-size: 15px;
+  line-height: 18px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.texto-4 {
+  font-family: messina-book;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/*ESTILOS PAGINA*/
+body {
+  position: relative;
+  height: 3780px;
+  background: #FFFFFF;
+}
+@media (min-width: 1200px) {
+  body {
+    position: relative;
+    height: 4439px;
+    background: #FFFFFF;
+  }
+}
+@media (min-width: 600px) {
+  body {
+    position: relative;
+    height: 4439px;
+    background: #FFFFFF;
+  }
+}
+
+.white-background {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+.white-background .laurel-der1 {
+  background-image: url("/assets/img/laurel derecha.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-blend-mode: multiply;
+  z-index: 2;
+  width: 296px;
+  height: 494px;
+  right: -225px;
+  top: 360px;
+}
+.white-background .laurel-der2 {
+  background-image: url("/assets/img/laurel derecha.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-blend-mode: multiply;
+  width: 296px;
+  height: 494px;
+  right: -225px;
+  top: 1640px;
+  z-index: 2;
+}
+.white-background .laurel-izq {
+  background-image: url("/assets/img/laurel izquierda.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-blend-mode: multiply;
+  width: 296px;
+  height: 494px;
+  left: 0px;
+  top: 2290px;
+  z-index: 2;
+}
+.white-background .color-block {
+  background-color: #EFE4D4;
+  opacity: 50%;
+  width: 100%;
+  z-index: 1;
+}
+
+/*imagen abajo header*/
+.banner .layer {
+  position: absolute;
+  width: 100%;
+  height: 480px;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  background-color: #000000;
+  opacity: 40%;
+}
+.banner .content {
+  position: absolute;
+  width: 100%;
+  height: 13rem;
+  top: 11.875rem;
+  z-index: 3;
+}
+.banner .content .titulo-1 {
+  color: #F9F9F9;
+  text-align: center;
+  line-height: 50px;
+  font-size: 40px;
+}
+.banner .content .texto-1 {
+  color: #F9F9F9;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.35px;
+  margin-top: 4rem;
+  margin-bottom: 0rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.banner .img-estancia {
+  position: absolute;
+  width: 100%;
+  height: 480px;
+  left: 0px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: url(/assets/img/content/21.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 40% bottom;
+}
+@media (min-width: 1200px) {
+  .banner .img-estancia {
+    position: absolute;
+    width: 100%;
+  }
+}
+
+.laCasa {
+  position: absolute;
+  width: 100%;
+  top: 560px;
+  padding: 1rem;
+  z-index: 3;
+}
+.laCasa h2 {
+  color: #033B31;
+  font-size: 32px;
+  line-height: 45px;
+}
+.laCasa p {
+  color: #033B31;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.35px;
+  margin-bottom: 30px;
+}
+.laCasa .carousel-item {
+  min-height: 280px;
+}
+.laCasa .carousel-item img {
+  margin-bottom: 50;
+}
+.laCasa .footer-carousel {
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  background-color: #EFE4D4;
+  padding-bottom: 50px;
+}
+.laCasa .footer-carousel p {
+  color: #033B31;
+  font-size: 12px;
+}
+
+.Exteriores {
+  position: absolute;
+  width: 100%;
+  top: 1074px;
+  padding: 1rem;
+}
+.Exteriores h2 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #033B31;
+  font-size: 32px;
+  line-height: 45px;
+}
+.Exteriores .img-ext {
+  padding-top: 24px;
+}
+.Exteriores .exterior-img {
+  width: 100%;
+  max-height: 120px;
+}
+.Exteriores p {
+  padding-top: 40px;
+  color: #033B31;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.35px;
+}
+
+.estancia-cb {
+  height: 690px;
+  position: absolute;
+  bottom: 1200px;
+}
+
+.estancia-cb2 {
+  top: 480px;
+  position: absolute;
+  height: 1340px;
+}
+
+.Instalaciones {
+  height: 690px;
+  position: absolute;
+  bottom: 1200px;
+  width: 100%;
+  z-index: 3;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.Instalaciones h2 {
+  padding-left: 18px;
+  font-size: 32px;
+  line-height: 45px;
+  color: #033B31;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+.Instalaciones .marg-der {
+  border-right: 1px solid #D28E4D;
+}
+.Instalaciones .col {
+  padding: 0px 20px 20px 20px;
+}
+.Instalaciones .areas-inst {
+  border-bottom: 1px solid #D28E4D;
+  width: 90%;
+  margin-left: 10px;
+}
+.Instalaciones .areas-inst h3 {
+  font-size: 16px;
+  line-height: 30px;
+  color: #033B31;
+}
+.Instalaciones .areas-inst ul {
+  padding: 0px;
+}
+.Instalaciones .areas-inst li {
+  list-style: none;
+  font-size: 12px;
+  line-height: 17px;
+  color: #033B31;
+}
+
+.normasCasa {
+  position: absolute;
+  bottom: 715px;
+  width: 100%;
+  height: 490px;
+  padding: 25px;
+}
+.normasCasa .normas {
+  border-right: 1px solid #D28E4D;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.normasCasa h3 {
+  font-size: 16px;
+  line-height: 30px;
+}
+.normasCasa p {
+  font-size: 12px;
+  line-height: 17px;
+}
+.normasCasa hr {
+  position: static;
+  width: 180px;
+  height: 0px;
+  border-bottom: 1px solid #D28E4D;
+  opacity: 100%;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 660px;
+  left: 0px;
+  bottom: 0px;
+  background: rgba(2, 59, 49, 0.8);
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1200px) {
+  .footer {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background: rgba(2, 59, 49, 0.8);
+    height: 349px;
+    flex-direction: row;
+  }
+}
+@media (min-width: 600px) {
+  .footer {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    background: rgba(2, 59, 49, 0.8);
+    height: 349px;
+    flex-direction: row;
+  }
+}
+.footer .logo {
+  height: 220px;
+}
+.footer .logo img {
+  margin-left: 18px;
+  margin-top: 40px;
+  width: 140px;
+  height: 140px;
+}
+@media (min-width: 1200px) {
+  .footer .logo {
+    width: 30%;
+    height: 100%;
+  }
+  .footer .logo img {
+    margin-left: 150px;
+    margin-top: 54px;
+    margin-bottom: 155px;
+    width: 145px;
+    height: 145px;
+  }
+}
+@media (min-width: 600px) {
+  .footer .logo {
+    width: 30%;
+    height: 100%;
+  }
+}
+.footer .links-rrss {
+  height: 220px;
+  display: flex;
+  flex-direction: row;
+}
+@media (min-width: 1200px) {
+  .footer .links-rrss {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 600px) {
+  .footer .links-rrss {
+    position: relative;
+    width: 20%;
+    height: 100%;
+  }
+}
+.footer .links-rrss--link {
+  height: 220px;
+  width: 50%;
+}
+@media (min-width: 1200px) {
+  .footer .links-rrss--link.seguinos {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 208px;
+    top: 82px;
+  }
+}
+@media (min-width: 600px) {
+  .footer .links-rrss--link.seguinos {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    right: -45vw;
+    top: 82px;
+  }
+}
+@media (min-width: 1200px) {
+  .footer .links-rrss--link.macarena {
+    margin-top: 82px;
+  }
+}
+@media (min-width: 600px) {
+  .footer .links-rrss--link.macarena {
+    margin-top: 82px;
+  }
+}
+.footer .links-rrss--link__title {
+  margin-left: 15px;
+  color: #F9F9F9;
+}
+.footer .links-rrss--link .rrss-icon {
+  height: 30px;
+  width: 30px;
+  margin-left: 7.5px;
+  margin-right: 7.5px;
+  margin-top: 10px;
+}
+.footer .links-rrss--link ul {
+  padding-left: 15px;
+}
+.footer .links-rrss--link ul li {
+  list-style-type: none;
+  letter-spacing: 0.35px;
+  margin: 15px 0px;
+}
+.footer .links-rrss--link ul li a {
+  color: #F9F9F9;
+  text-decoration: none;
+}
+.footer .datos-contacto {
+  height: 220px;
+  color: #F9F9F9;
+  margin-left: 15px;
+}
+.footer .datos-contacto p {
+  letter-spacing: 0.35px;
+  margin: 15px 0px;
+}
+.footer .datos-contacto .icon-blanco {
+  padding-right: 15px;
+}
+@media (min-width: 1200px) {
+  .footer .datos-contacto {
+    position: relative;
+    margin-top: 82px;
+  }
+}
+@media (min-width: 600px) {
+  .footer .datos-contacto {
+    position: relative;
+    margin-top: 82px;
+    width: 30%;
+  }
+}
+
+/*ESTILOS LIBRES*/
+/*relleno para navbar*/
+.placeholder {
+  background-color: blueviolet;
+  height: 70px;
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  left: 0px;
+  top: 0px;
+  opacity: 50%;
+  z-index: 99;
+}
+@media (min-width: 1200px) {
+  .placeholder {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 50%;
+  }
+}
+@media (min-width: 600px) {
+  .placeholder {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 50%;
+  }
+}/*# sourceMappingURL=side.css.map */
