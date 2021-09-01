@@ -142,6 +142,259 @@ body {
   }
 }
 
+<<<<<<< HEAD:styles/main.css
+=======
+.white-background {
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  overflow: hidden;
+}
+.white-background .laurel-der1 {
+  background-image: url("/assets/img/laurel derecha.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-blend-mode: multiply;
+  z-index: 2;
+  width: 296px;
+  height: 494px;
+  right: -225px;
+  top: 360px;
+}
+.white-background .laurel-der2 {
+  background-image: url("/assets/img/laurel derecha.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-blend-mode: multiply;
+  width: 296px;
+  height: 494px;
+  right: -225px;
+  top: 1640px;
+  z-index: 2;
+}
+.white-background .laurel-izq {
+  background-image: url("/assets/img/laurel izquierda.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-blend-mode: multiply;
+  width: 296px;
+  height: 494px;
+  left: 0px;
+  top: 2290px;
+  z-index: 2;
+}
+.white-background .color-block {
+  background-color: #EFE4D4;
+  opacity: 50%;
+  width: 100%;
+  z-index: 1;
+}
+
+/*imagen abajo header*/
+.banner .layer {
+  position: absolute;
+  width: 100%;
+  height: 480px;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  background-color: #000000;
+  opacity: 40%;
+}
+.banner .content {
+  position: absolute;
+  width: 100%;
+  height: 13rem;
+  top: 11.875rem;
+  z-index: 3;
+}
+.banner .content .titulo-1 {
+  color: #F9F9F9;
+  text-align: center;
+  line-height: 50px;
+  font-size: 40px;
+}
+.banner .content .texto-1 {
+  color: #F9F9F9;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.35px;
+  margin-top: 4rem;
+  margin-bottom: 0rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.banner .img-estancia {
+  position: absolute;
+  width: 100%;
+  height: 480px;
+  left: 0px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0.4);
+  background-image: url(/assets/img/img/content/21.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 40% bottom;
+}
+@media (min-width: 1200px) {
+  .banner .img-estancia {
+    position: absolute;
+    width: 100%;
+  }
+}
+
+.laCasa {
+  position: absolute;
+  width: 100%;
+  top: 560px;
+  padding: 1rem;
+  z-index: 3;
+}
+.laCasa h2 {
+  color: #033B31;
+  font-size: 32px;
+  line-height: 45px;
+}
+.laCasa p {
+  color: #033B31;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.35px;
+  margin-bottom: 30px;
+}
+.laCasa .carousel-item {
+  min-height: 280px;
+}
+.laCasa .carousel-item img {
+  margin-bottom: 50;
+}
+.laCasa .footer-carousel {
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  background-color: #EFE4D4;
+  padding-bottom: 50px;
+}
+.laCasa .footer-carousel p {
+  color: #033B31;
+  font-size: 12px;
+}
+
+.Exteriores {
+  position: absolute;
+  width: 100%;
+  top: 1074px;
+  padding: 1rem;
+}
+.Exteriores h2 {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #033B31;
+  font-size: 32px;
+  line-height: 45px;
+}
+.Exteriores .img-ext {
+  padding-top: 24px;
+}
+.Exteriores .exterior-img {
+  width: 100%;
+  max-height: 120px;
+}
+.Exteriores p {
+  padding-top: 40px;
+  color: #033B31;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.35px;
+}
+
+.estancia-cb {
+  height: 690px;
+  position: absolute;
+  bottom: 1200px;
+}
+
+.estancia-cb2 {
+  top: 480px;
+  position: absolute;
+  height: 1340px;
+}
+
+.Instalaciones {
+  height: 690px;
+  position: absolute;
+  bottom: 1200px;
+  width: 100%;
+  z-index: 3;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.Instalaciones h2 {
+  padding-left: 18px;
+  font-size: 32px;
+  line-height: 45px;
+  color: #033B31;
+  margin-top: 70px;
+  margin-bottom: 30px;
+}
+.Instalaciones .marg-der {
+  border-right: 1px solid #D28E4D;
+}
+.Instalaciones .col {
+  padding: 0px 20px 20px 20px;
+}
+.Instalaciones .areas-inst {
+  border-bottom: 1px solid #D28E4D;
+  width: 90%;
+  margin-left: 10px;
+}
+.Instalaciones .areas-inst h3 {
+  font-size: 16px;
+  line-height: 30px;
+  color: #033B31;
+}
+.Instalaciones .areas-inst ul {
+  padding: 0px;
+}
+.Instalaciones .areas-inst li {
+  list-style: none;
+  font-size: 12px;
+  line-height: 17px;
+  color: #033B31;
+}
+
+.normasCasa {
+  position: absolute;
+  bottom: 715px;
+  width: 100%;
+  height: 490px;
+  padding: 25px;
+}
+.normasCasa .normas {
+  border-right: 1px solid #D28E4D;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.normasCasa h3 {
+  font-size: 16px;
+  line-height: 30px;
+}
+.normasCasa p {
+  font-size: 12px;
+  line-height: 17px;
+}
+.normasCasa hr {
+  position: static;
+  width: 180px;
+  height: 0px;
+  border-bottom: 1px solid #D28E4D;
+  opacity: 100%;
+}
+
+>>>>>>> karla:styles/css/side.css
 .footer {
   position: absolute;
   width: 100%;
