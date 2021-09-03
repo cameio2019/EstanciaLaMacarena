@@ -135,6 +135,12 @@
   }
 }
 
+.b-actividades {
+  position: relative;
+  height: 3780px;
+  background: #FFFFFF;
+}
+
 .white-background {
   height: 100%;
   position: absolute;

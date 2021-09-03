@@ -43,9 +43,30 @@
 .navbar {
     // width: 1420px;
     height: 80px !important;
+    padding: 0px !important;
+    border: 0px !important;
+    z-index: 99;
+
+    & .r-rev{
+        display:none !important;
+
+        @include web-laptop {
+            display: flex !important;
+        }
+
+        @include tablet-horizontal {
+            display: flex !important;
+        }
+    }
+
+    &-toggler {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
 
     & .container-sm {
         max-height: 80px;
+        padding: 0px;;
 
         & .navbar-brand{
             height: 70px;
@@ -56,11 +77,15 @@
                 top: -10px;
 
                 @include web-laptop {
-                    position: inherit;
+                    position:absolute;
                 
                 }
 
             }
+        }
+
+        & .nav-link{
+            padding: 15px;
         }
     }
 
@@ -109,7 +134,7 @@ header {
     background: #F9F9F9 !important;
 /*     opacity: 0.8 !important; */
     color: $verde !important;
-    border: 1px solid #E2E5E6 !important;
+   
 }
 
 hr {

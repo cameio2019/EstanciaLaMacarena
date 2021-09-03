@@ -99,9 +99,30 @@
 
 .navbar {
   height: 80px !important;
+  padding: 0px !important;
+  border: 0px !important;
+  z-index: 99;
+}
+.navbar .r-rev {
+  display: none !important;
+}
+@media (min-width: 1200px) {
+  .navbar .r-rev {
+    display: flex !important;
+  }
+}
+@media (min-width: 600px) {
+  .navbar .r-rev {
+    display: flex !important;
+  }
+}
+.navbar-toggler {
+  margin-left: 12px;
+  margin-right: 12px;
 }
 .navbar .container-sm {
   max-height: 80px;
+  padding: 0px;
 }
 .navbar .container-sm .navbar-brand {
   height: 70px;
@@ -113,8 +134,11 @@
 }
 @media (min-width: 1200px) {
   .navbar .container-sm .navbar-brand img {
-    position: inherit;
+    position: absolute;
   }
+}
+.navbar .container-sm .nav-link {
+  padding: 15px;
 }
 
 /*@mixin telefono {
@@ -149,7 +173,6 @@ header {
   background: #F9F9F9 !important;
   /*     opacity: 0.8 !important; */
   color: #033B31 !important;
-  border: 1px solid #E2E5E6 !important;
 }
 
 hr {
