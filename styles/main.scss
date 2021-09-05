@@ -9,36 +9,6 @@
     fill: $blanco;
 }
 
-/*relleno para navbar*/
-.placeholder {
-    background-color: blueviolet;
-    height: 70px;
-    position: absolute;
-    width: 100%;
-    height: 70px;
-    left: 0px;
-    top: 0px;
-    opacity: 50%;
-
-    @include web-laptop {
-        position: absolute;
-        width: 100%;
-        left: 0px;
-        top: 0px;
-        opacity: 50%;
-
-    }
-
-    @include tablet-horizontal {
-        position: absolute;
-        width: 100%;
-        left: 0px;
-        top: 0px;
-        opacity: 50%;
-
-    }
-
-}
 
 .navbar {
     // width: 1420px;
@@ -47,8 +17,8 @@
     border: 0px !important;
     z-index: 99;
 
-    & .r-rev{
-        display:none !important;
+    & .r-rev {
+        display: none !important;
 
         @include web-laptop {
             display: flex !important;
@@ -66,25 +36,26 @@
 
     & .container-sm {
         max-height: 80px;
-        padding: 0px;;
+        padding: 0px;
+        ;
 
-        & .navbar-brand{
+        & .navbar-brand {
             height: 70px;
             padding: 0px;
 
-            & img{
+            & img {
                 position: absolute;
                 top: -10px;
 
                 @include web-laptop {
-                    position:absolute;
-                
+                    position: absolute;
+
                 }
 
             }
         }
 
-        & .nav-link{
+        & .nav-link {
             padding: 15px;
         }
     }
@@ -108,20 +79,206 @@
 
 .index {
     position: relative;
+    height: 100%;
 
-    @include telefono{
-        height: 3630px;
+    & .ofrecemos {
+
+        & .red-line {
+            display: none;
+        }
     }
+
+    & .footer {
+        position: relative;
+    }
+
+    @include telefono {
+        height: 100%;
+
+        & .laurel-der2 {
+            background-image: url("/assets/img/img/laurel derecha.svg");
+            background-repeat: no-repeat;
+            position: absolute;
+            background-blend-mode: multiply;
+            // border: 5px solid blue;
+            width: 15.416666666666666vw;
+            height: 40%;
+            right: 0vw;
+            top: 30.5%;
+            z-index: 1;
+    
+    
+        }
+    
+        & .laurel-izq {
+            background-image: url("/assets/img/img/laurel izquierda.svg");
+            background-repeat: no-repeat;
+            position: absolute;
+            background-blend-mode: multiply;
+            // border: 5px solid blue;
+            width: 15.416666666666666vw;
+            height: 40%;
+            left: 0px;
+            top: 55%;
+            z-index: 2;
+    
+    
+        }
+
+        & .t-banner {
+            padding: 0rem 2.5rem 0rem;
+            text-align: center;
+        }
+
+        & .titulo-3 {
+            padding: 0rem 2.5rem 0rem;
+            text-align: center;
+
+        }
+
+        & .btnHero {
+            padding: .1rem .2rem;
+            width: 11rem !important;
+            height: 3rem !important;
+
+            & .fa-arrow-right {
+                margin-left: 1rem !important;
+
+            }
+        }
+
+        & .encontDiv {
+
+            & .bannner-map {
+                flex-direction: column-reverse;
+
+                & .maps {
+                    background-color: transparent;
+                    box-shadow: 5px 6px 4px 3px $verde;
+                    padding: 0px !important;
+
+                    & iframe {
+                        height: 16.875rem;
+                    }
+
+
+                }
+
+                & .btnHero {
+                    width: 15.625rem !important;
+                    margin-bottom: 1rem;
+                    margin-left: 0.938rem;
+                    z-index: 3;
+                }
+            }
+
+            & .titulo-1 {
+                font-size: 32px;
+                line-height: 45px;
+                width: 100%;
+
+            }
+
+        }
+
+        & .ofrecemos {
+
+            & .titulo-1 {
+                font-size: 32px;
+                line-height: 45px;
+            }
+
+            & .p-desc {
+                font-size: 12px;
+                line-height: 18px;
+                font-family: $mess-reg;
+                color: $verde;
+                margin-top: 1.5rem;
+            }
+
+            & .mb-5 {
+                margin-bottom: 1rem !important;
+            }
+
+            & .mt-5 {
+                margin-top: 1rem !important;
+            }
+
+            & .red-line {
+                display: block;
+                border-top: $tierra solid 1px;
+                margin-bottom: 1rem;
+                margin-top: 1rem !important;
+            }
+
+            & .btnHero {
+                width: 15.625rem !important;
+                margin-left: 2.2rem !important;
+            }
+        }
+
+        & .index-act {
+            margin-bottom: 2rem !important;
+
+            & .titulo-1 {
+                color: $verde;
+                font-size: 32px;
+                line-height: 45px;
+            }
+
+            & .titulo-2 {
+                color: $verde;
+                font-size: 18px;
+                line-height: 30px;
+            }
+
+            & .col {
+                padding: 0.3rem;
+            }
+
+            & .card {
+                position: relative;
+                height: 100%;
+                width: 45.75vw;
+                box-shadow: 0px 0px 0.65625px rgba(20, 20, 20, 0.04), 0px 0px 5.25px rgba(20, 20, 20, 0.08);
+                border-radius: 3.28125px;
+                border: none;
+
+
+                & img {
+                    height: 8.25rem;
+                }
+
+                & .card-title {
+                    color: $verde;
+                    font-size: 16px;
+                    line-height: 25px;
+                    font-family: $mess-reg;
+
+                }
+
+                & .card-text {
+                    font-family: $mess-reg;
+                    color: $verde;
+                    font-size: 12px;
+                    line-height: 17px;
+                }
+            }
+
+            & .btnHero {
+                width: 15.625rem !important;
+                margin-left: 2.5rem !important;
+            }
+        }
+
+
+    }
+
+    
+
+
 }
 
-// .jumbotron {
-//     color: white;
-//     background-image: url("/assets/img/20210502_163554.jpeg");
-//     background-position: center;
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     height: 100vh;
-// } 
 
 header {
     background: no-repeat center center;
@@ -132,9 +289,9 @@ header {
 
 .navbar {
     background: #F9F9F9 !important;
-/*     opacity: 0.8 !important; */
+    /*     opacity: 0.8 !important; */
     color: $verde !important;
-   
+
 }
 
 hr {
@@ -159,8 +316,8 @@ hr {
     font-weight: 600;
     font-size: 15px;
     line-height: 56px;
-    
-    & .btnHero:hover{
+
+    & .btnHero:hover {
         background-color: #ddd;
         color: black;
     }
@@ -184,7 +341,7 @@ hr {
 }
 
 .encontDiv {
-    background-color: #EFE4D4;
+    background-color: rgba(239, 228, 212, 0.5);
 }
 
 .border_input {
@@ -192,268 +349,17 @@ hr {
 }
 
 
-// .cards {
-//     /* Organismo/ Card Web */
 
-// position: relative;
-// width: 250px;
-// height: 400px;
-
-// background: #FFFFFF;
-// /* MEDIUM SHADOW */
-// box-shadow: 0px 0px 1px rgba(20, 20, 20, 0.08), 0px 1px 8px 2px rgba(20, 20, 20, 0.08);
-// border-radius: 5px;
-
-
-// /* Organismo/ Card Actividades Web */
-
-// position: absolute;
-// left: 0%;
-// right: 0%;
-// top: 0%;
-// bottom: 49.75%;
-
-// /* MEDIUM SHADOW */
-// box-shadow: 0px 1px 8px 2px rgba(20, 20, 20, 0.08);
-// filter: drop-shadow(0px 0px 1px rgba(20, 20, 20, 0.08));
-// border-radius: 2px 2px 0px 0px;
-
-
-// /* Element/Cover image */
-
-// /* Auto Layout */
-// display: flex;
-// flex-direction: column;
-// align-items: flex-start;
-// padding: 0px;
-
-// position: absolute;
-// width: 250px;
-// height: 250px;
-// left: 0px;
-// top: 0px;
-
-// background: url(.jpg);
-
-
-// /* Aspect ratio keeper # Rotated Auto Layout */
-
-// /* Auto Layout */
-// display: flex;
-// flex-direction: column;
-// align-items: center;
-// padding: 0px;
-
-// position: static;
-// width: 250px;
-// height: 0px;
-// right: -21.65px;
-// bottom: 109.37px;
-
-// transform: rotate(-34.23deg);
-
-// /* Inside Auto Layout */
-// flex: none;
-// order: 0;
-// align-self: stretch;
-// flex-grow: 0;
-// margin: 0px 0px;
-
-
-// /* Element/content */
-
-// /* Auto Layout */
-// display: flex;
-// flex-direction: column;
-// align-items: flex-start;
-// padding: 12px;
-
-// position: absolute;
-// left: 0%;
-// right: 0%;
-// top: 50.25%;
-// bottom: 0%;
-
-
-
-// /* Element/content-top */
-
-// /* Auto Layout */
-// display: flex;
-// flex-direction: column;
-// align-items: flex-start;
-// padding: 0px;
-
-// position: static;
-// width: 221px;
-// height: 174.99px;
-// left: 12px;
-// top: 12px;
-
-
-// /* Inside Auto Layout */
-// flex: none;
-// order: 0;
-// flex-grow: 1;
-// margin: 12px 0px;
-
-
-// /* Element/title */
-
-// /* Auto Layout */
-// display: flex;
-// flex-direction: column;
-// align-items: flex-start;
-// padding: 0px;
-
-// position: static;
-// width: 221px;
-// height: 37px;
-// left: 0px;
-// top: 0px;
-
-
-// /* Inside Auto Layout */
-// flex: none;
-// order: 0;
-// flex-grow: 0;
-// margin: 10px 0px;
-
-
-// /* title */
-
-// position: static;
-// width: 216px;
-// height: 37px;
-// left: 0px;
-// top: 0px;
-
-// /* Texto 2 */
-// font-family: Messina Sans;
-// font-style: normal;
-// font-weight: normal;
-// font-size: 15.5px;
-// line-height: 22px;
-// /* or 142% */
-// display: flex;
-// align-items: center;
-// letter-spacing: 0.35px;
-
-// /* Verde */
-// color: #033B31;
-
-
-// /* Inside Auto Layout */
-// flex: none;
-// order: 0;
-// flex-grow: 0;
-// margin: 5px 0px;
-
-
-// /* Element/title */
-
-// /* Auto Layout */
-// display: flex;
-// flex-direction: row;
-// align-items: flex-start;
-// padding: 0px;
-
-// position: static;
-// width: 221px;
-// height: 127px;
-// left: 0px;
-// top: 47px;
-
-
-// /* Inside Auto Layout */
-// flex: none;
-// order: 1;
-// flex-grow: 0;
-// margin: 10px 0px;
-
-
-// /* title */
-
-// position: static;
-// width: 221px;
-// height: 117px;
-// left: 0px;
-// top: 0px;
-
-// /* Texto 4 */
-// font-family: Messina Sans;
-// font-style: normal;
-// font-weight: normal;
-// font-size: 12px;
-// line-height: 18px;
-// /* or 150% */
-
-// /* Verde */
-// color: #033B31;
-
-
-// /* Inside Auto Layout */
-// flex: none;
-// order: 0;
-// flex-grow: 0;
-// margin: 0px 5px;
-
-
-// /* wrapper */
-
-// position: static;
-// width: 0px;
-// height: 20px;
-// left: 0px;
-// top: 184px;
-
-
-// /* Inside Auto Layout */
-// flex: none;
-// order: 2;
-// flex-grow: 0;
-// margin: 10px 0px;
-
-// }
-
-.laurel{
+.laurel {
     /* 1 1 */
 
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-
-background-blend-mode: multiply;
-
-}
-
-
-
-/* .nav_bar_cel {
-    background-color: #FFFFFF;
-    position: relative;
+    position: absolute;
     left: 0%;
     right: 0%;
-    top: 22.12%;
+    top: 0%;
     bottom: 0%;
-} */
 
-// #flecha {
-//     position: absolute;
 
-//     transform: rotate(-90deg);
-// }
+    background-blend-mode: multiply;
 
-/*imagen abajo header*/
-
-/*.img-estancia {
-    position: absolute;
-    width: 375px;
-    height: 480px;
-    left: 0px;
-    top: 0px;
-    background: rgba(0, 0, 0, 0.4);
-}*/
+}

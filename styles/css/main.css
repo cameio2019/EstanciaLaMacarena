@@ -67,36 +67,6 @@
   fill: #F9F9F9;
 }
 
-/*relleno para navbar*/
-.placeholder {
-  background-color: blueviolet;
-  height: 70px;
-  position: absolute;
-  width: 100%;
-  height: 70px;
-  left: 0px;
-  top: 0px;
-  opacity: 50%;
-}
-@media (min-width: 1200px) {
-  .placeholder {
-    position: absolute;
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    opacity: 50%;
-  }
-}
-@media (min-width: 600px) {
-  .placeholder {
-    position: absolute;
-    width: 100%;
-    left: 0px;
-    top: 0px;
-    opacity: 50%;
-  }
-}
-
 .navbar {
   height: 80px !important;
   padding: 0px !important;
@@ -155,10 +125,147 @@
 /*INDEX STYLE*/
 .index {
   position: relative;
+  height: 100%;
+}
+.index .ofrecemos .red-line {
+  display: none;
+}
+.index .footer {
+  position: relative;
 }
 @media (max-width: 599px) {
   .index {
-    height: 3630px;
+    height: 100%;
+  }
+  .index .laurel-der2 {
+    background-image: url("/assets/img/img/laurel derecha.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-blend-mode: multiply;
+    width: 15.4166666667vw;
+    height: 40%;
+    right: 0vw;
+    top: 30.5%;
+    z-index: 1;
+  }
+  .index .laurel-izq {
+    background-image: url("/assets/img/img/laurel izquierda.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-blend-mode: multiply;
+    width: 15.4166666667vw;
+    height: 40%;
+    left: 0px;
+    top: 55%;
+    z-index: 2;
+  }
+  .index .t-banner {
+    padding: 0rem 2.5rem 0rem;
+    text-align: center;
+  }
+  .index .titulo-3 {
+    padding: 0rem 2.5rem 0rem;
+    text-align: center;
+  }
+  .index .btnHero {
+    padding: 0.1rem 0.2rem;
+    width: 11rem !important;
+    height: 3rem !important;
+  }
+  .index .btnHero .fa-arrow-right {
+    margin-left: 1rem !important;
+  }
+  .index .encontDiv .bannner-map {
+    flex-direction: column-reverse;
+  }
+  .index .encontDiv .bannner-map .maps {
+    background-color: transparent;
+    box-shadow: 5px 6px 4px 3px #033B31;
+    padding: 0px !important;
+  }
+  .index .encontDiv .bannner-map .maps iframe {
+    height: 16.875rem;
+  }
+  .index .encontDiv .bannner-map .btnHero {
+    width: 15.625rem !important;
+    margin-bottom: 1rem;
+    margin-left: 0.938rem;
+    z-index: 3;
+  }
+  .index .encontDiv .titulo-1 {
+    font-size: 32px;
+    line-height: 45px;
+    width: 100%;
+  }
+  .index .ofrecemos .titulo-1 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .index .ofrecemos .p-desc {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: messina-regular;
+    color: #033B31;
+    margin-top: 1.5rem;
+  }
+  .index .ofrecemos .mb-5 {
+    margin-bottom: 1rem !important;
+  }
+  .index .ofrecemos .mt-5 {
+    margin-top: 1rem !important;
+  }
+  .index .ofrecemos .red-line {
+    display: block;
+    border-top: #9E4F31 solid 1px;
+    margin-bottom: 1rem;
+    margin-top: 1rem !important;
+  }
+  .index .ofrecemos .btnHero {
+    width: 15.625rem !important;
+    margin-left: 2.2rem !important;
+  }
+  .index .index-act {
+    margin-bottom: 2rem !important;
+  }
+  .index .index-act .titulo-1 {
+    color: #033B31;
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .index .index-act .titulo-2 {
+    color: #033B31;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .index .index-act .col {
+    padding: 0.3rem;
+  }
+  .index .index-act .card {
+    position: relative;
+    height: 100%;
+    width: 45.75vw;
+    box-shadow: 0px 0px 0.65625px rgba(20, 20, 20, 0.04), 0px 0px 5.25px rgba(20, 20, 20, 0.08);
+    border-radius: 3.28125px;
+    border: none;
+  }
+  .index .index-act .card img {
+    height: 8.25rem;
+  }
+  .index .index-act .card .card-title {
+    color: #033B31;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: messina-regular;
+  }
+  .index .index-act .card .card-text {
+    font-family: messina-regular;
+    color: #033B31;
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .index .index-act .btnHero {
+    width: 15.625rem !important;
+    margin-left: 2.5rem !important;
   }
 }
 
@@ -217,7 +324,7 @@ hr {
 }
 
 .encontDiv {
-  background-color: #EFE4D4;
+  background-color: rgba(239, 228, 212, 0.5);
 }
 
 .border_input {
@@ -232,22 +339,4 @@ hr {
   top: 0%;
   bottom: 0%;
   background-blend-mode: multiply;
-}
-
-/* .nav_bar_cel {
-    background-color: #FFFFFF;
-    position: relative;
-    left: 0%;
-    right: 0%;
-    top: 22.12%;
-    bottom: 0%;
-} */
-/*imagen abajo header*/
-/*.img-estancia {
-    position: absolute;
-    width: 375px;
-    height: 480px;
-    left: 0px;
-    top: 0px;
-    background: rgba(0, 0, 0, 0.4);
-}*//*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */

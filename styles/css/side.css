@@ -63,6 +63,10 @@
 }
 */
 /*estilos UI KIT */
+html {
+  width: 100%;
+}
+
 .titulo-1 {
   font-family: Recoleta-Regular;
   font-size: 45px;
@@ -115,9 +119,14 @@
 }
 
 /*ESTILOS PAGINA*/
+body {
+  position: relative;
+  width: 100%;
+}
+
 .b-estancia {
   position: relative;
-  height: 3780px;
+  height: 3700px;
   background: #FFFFFF;
 }
 @media (min-width: 1200px) {
@@ -137,12 +146,13 @@
 
 .b-actividades {
   position: relative;
-  height: 3780px;
+  height: 275.625rem;
+  width: 100%;
   background: #FFFFFF;
 }
 
 .white-background {
-  height: 100%;
+  height: 80%;
   position: absolute;
   width: 100%;
   overflow: hidden;
@@ -153,31 +163,31 @@
   position: absolute;
   background-blend-mode: multiply;
   z-index: 2;
-  width: 296px;
-  height: 494px;
-  right: -230px;
-  top: 360px;
+  width: 15.4166666667vw;
+  height: 100%;
+  right: 0vw;
+  top: 10%;
 }
 .white-background .laurel-der2 {
   background-image: url("/assets/img/img/laurel derecha.svg");
   background-repeat: no-repeat;
   position: absolute;
   background-blend-mode: multiply;
-  width: 296px;
-  height: 494px;
-  right: -230px;
-  top: 1640px;
-  z-index: 2;
+  width: 15.4166666667vw;
+  height: 100%;
+  right: 0vw;
+  top: 48.5%;
+  z-index: 3;
 }
 .white-background .laurel-izq {
   background-image: url("/assets/img/img/laurel izquierda.svg");
   background-repeat: no-repeat;
   position: absolute;
   background-blend-mode: multiply;
-  width: 296px;
-  height: 494px;
+  width: 15.4166666667vw;
+  height: 100%;
   left: 0px;
-  top: 2290px;
+  top: 70%;
   z-index: 2;
 }
 .white-background .color-block {
@@ -191,10 +201,10 @@
 .banner .layer {
   position: absolute;
   width: 100%;
-  height: 480px;
+  height: 15%;
   left: 0px;
   top: 0px;
-  z-index: 3;
+  z-index: 4;
   background-color: #000000;
   opacity: 40%;
 }
@@ -203,7 +213,7 @@
   width: 100%;
   height: 13rem;
   top: 11.875rem;
-  z-index: 3;
+  z-index: 4;
 }
 .banner .content .titulo-1 {
   color: #F9F9F9;
@@ -225,9 +235,10 @@
 .banner .img-estancia {
   position: absolute;
   width: 100%;
-  height: 480px;
+  height: 15%;
   left: 0px;
   top: 0px;
+  z-index: 3;
   background: rgba(0, 0, 0, 0.4);
   background-image: url(/assets/img/img/content/21.jpg);
   background-size: cover;
@@ -244,7 +255,7 @@
 .laCasa {
   position: absolute;
   width: 100%;
-  top: 560px;
+  top: 15%;
   padding: 1rem;
   z-index: 3;
 }
@@ -256,90 +267,93 @@
 .laCasa p {
   color: #033B31;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 15px;
   letter-spacing: 0.35px;
   margin-bottom: 30px;
 }
 .laCasa .carousel-item {
-  min-height: 280px;
+  min-height: 29.8826040555vh;
 }
 .laCasa .carousel-item img {
-  margin-bottom: 50;
+  margin-bottom: 5.3361792956vh;
 }
 .laCasa .footer-carousel {
-  height: 50px;
+  height: 6.3361792956vh;
   bottom: 0px;
   left: 0px;
   right: 0px;
   width: 100%;
   background-color: #EFE4D4;
-  padding-bottom: 50px;
+  padding-bottom: 5.3361792956vh;
 }
 .laCasa .footer-carousel p {
   color: #033B31;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .Exteriores {
   position: absolute;
   width: 100%;
-  top: 1074px;
+  max-height: 73.6392742796vh;
+  top: 28%;
   padding: 1rem;
+  z-index: 2;
 }
 .Exteriores h2 {
-  margin-top: 30px;
-  margin-bottom: 50px;
+  margin-top: 1.875rem;
+  margin-bottom: 3.125rem;
   color: #033B31;
   font-size: 32px;
   line-height: 45px;
 }
 .Exteriores .img-ext {
-  padding-top: 24px;
+  padding-top: 1.5rem;
 }
 .Exteriores .exterior-img {
   width: 100%;
-  max-height: 120px;
+  max-height: 12.8068303095vh;
 }
 .Exteriores p {
-  padding-top: 40px;
+  padding-top: 2.5rem;
   color: #033B31;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 15px;
+  line-height: 1.25rem;
   letter-spacing: 0.35px;
 }
 
 .estancia-cb {
-  height: 690px;
+  height: 80.6392742796vh;
   position: absolute;
-  bottom: 1200px;
+  top: 48%;
 }
 
 .estancia-cb2 {
-  top: 480px;
+  top: 0px;
   position: absolute;
-  height: 1340px;
+  height: 184.6318036286vh;
 }
 
 .Instalaciones {
-  height: 690px;
+  background-color: rgba(239, 228, 212, 0.5);
   position: absolute;
-  bottom: 1200px;
+  top: 48%;
   width: 100%;
   z-index: 3;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 0.225rem;
+  padding-right: 0.625rem;
+  padding-bottom: 2rem;
 }
 .Instalaciones .row {
   margin-left: 0px;
   margin-right: 0px;
 }
 .Instalaciones h2 {
-  padding-left: 18px;
+  padding-left: 1.125rem;
   font-size: 32px;
-  line-height: 45px;
+  line-height: 1.875rem;
   color: #033B31;
-  margin-top: 70px;
-  margin-bottom: 30px;
+  margin-top: 4.375rem;
+  margin-bottom: 1.875rem;
 }
 .Instalaciones .marg-der {
   border-right: 1px solid #D28E4D;
@@ -350,11 +364,11 @@
 .Instalaciones .areas-inst {
   border-bottom: 1px solid #D28E4D;
   width: 90%;
-  margin-left: 10px;
+  margin-left: 0.625rem;
 }
 .Instalaciones .areas-inst h3 {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.25rem;
   color: #033B31;
 }
 .Instalaciones .areas-inst ul {
@@ -369,15 +383,15 @@
 
 .normasCasa {
   position: absolute;
-  bottom: 715px;
+  top: 68%;
   width: 100%;
-  height: 490px;
-  padding: 25px;
+  height: 52.2945570971vh;
+  padding: 1.563rem;
 }
 .normasCasa .normas {
   border-right: 1px solid #D28E4D;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 0.938rem;
+  margin-bottom: 0.938rem;
 }
 .normasCasa h3 {
   font-size: 16px;
@@ -389,17 +403,116 @@
 }
 .normasCasa hr {
   position: static;
-  width: 180px;
+  width: 9.375vw;
   height: 0px;
   border-bottom: 1px solid #D28E4D;
   opacity: 100%;
 }
 
+.en-estancia {
+  position: absolute;
+  top: 10%;
+  z-index: 1;
+  background-color: rgba(239, 228, 212, 0.5);
+  padding-top: 15rem;
+}
+.en-estancia .titulo-2 {
+  color: #033B31;
+  font-size: 32px;
+  line-height: 2.813rem;
+  margin-top: 5rem;
+}
+.en-estancia .texto-1 {
+  color: #033B31;
+  font-size: 16px;
+  line-height: 1.875rem;
+}
+.en-estancia .card-act {
+  padding: 0.625rem;
+  z-index: 3;
+}
+.en-estancia .card {
+  background-color: #F9F9F9 !important;
+  z-index: 5;
+  padding: 0px;
+  width: 45%;
+  border-radius: 3.28125px;
+  box-shadow: 0px 0px 0.65625px rgba(20, 20, 20, 0.04), 0px 0px 5.25px rgba(20, 20, 20, 0.08);
+  border: none;
+  margin: 1rem 0.344rem;
+  z-index: 3;
+}
+.en-estancia img {
+  width: 100%;
+  height: 14.0875133404vh;
+  z-index: 3;
+}
+.en-estancia .tarj-title {
+  margin-top: 0.813rem;
+  padding-left: 0.625rem;
+  color: #033B31;
+  font-size: 16px;
+  line-height: 1.875rem;
+}
+.en-estancia .card-text {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  margin-bottom: 0.625rem;
+  color: #033B31;
+  font-size: 12px;
+  line-height: 1.063rem;
+  text-align: left;
+}
+
+.alrededores {
+  position: absolute;
+  top: 45%;
+  z-index: 4;
+}
+.alrededores h1 {
+  padding-left: 0.3rem;
+  margin-bottom: 3rem;
+}
+.alrededores p {
+  padding-left: 0.3rem;
+}
+.alrededores .titulo-2 {
+  color: #033B31;
+  font-size: 32px;
+  line-height: 45px;
+}
+.alrededores .texto-1 {
+  color: #033B31;
+  font-size: 16px;
+  line-height: 30px;
+}
+.alrededores .actividad {
+  padding: 0px 1rem 1rem;
+}
+.alrededores .actividad .titulo-rojo {
+  font-family: messina-regular;
+  font-size: 22px;
+  line-height: 56px;
+  color: #9E4F31;
+}
+.alrededores .actividad .text-act {
+  color: #033B31;
+  font-family: messina-regular;
+  font-size: 12px;
+  line-height: 20px;
+}
+.alrededores .actividad img {
+  height: 11.813rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  box-shadow: 0px 1px 8px 2px rgba(20, 20, 20, 0.08);
+  filter: drop-shadow(0px 0px 1px rgba(20, 20, 20, 0.08));
+  border-radius: 5px;
+}
+
 .footer {
   position: absolute;
   width: 100%;
-  height: 660px;
-  left: 0px;
   bottom: 0px;
   background: rgba(2, 59, 49, 0.8);
   display: flex;
@@ -430,11 +543,10 @@
   }
 }
 .footer .logo {
-  height: 220px;
+  height: 23.4791889007vh;
 }
 .footer .logo img {
   margin-left: 18px;
-  margin-top: 40px;
   width: 140px;
   height: 140px;
 }
@@ -531,7 +643,6 @@
   text-decoration: none;
 }
 .footer .datos-contacto {
-  height: 220px;
   color: #F9F9F9;
   margin-left: 15px;
 }

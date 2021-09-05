@@ -4,6 +4,9 @@
 /*estilos UI KIT */
 
 //classes de estilo
+html {
+    width: 100%;
+}
 
 .titulo-1 {
     font-family: $rec-reg;
@@ -57,10 +60,15 @@
 
 
 /*ESTILOS PAGINA*/
-
-.b-estancia{
+body {
     position: relative;
-    height: 3780px;
+    width: 100%;
+}
+
+.b-estancia {
+    position: relative;
+    //height: 403.4151547491996vh;
+    height: 3700px;
     background: #FFFFFF;
 
     @include web-laptop {
@@ -80,15 +88,16 @@
 
 }
 
-.b-actividades{
+.b-actividades {
     position: relative;
-    height: 3780px;
+    height: 275.625rem;
+    width: 100%;
     background: #FFFFFF;
 }
 
 .white-background {
     //border: 5px solid green;
-    height: 100%;
+    height: 80%;
     position: absolute;
     width: 100%;
     overflow: hidden;
@@ -100,10 +109,10 @@
         background-blend-mode: multiply;
         z-index: 2;
         // border: 5px solid blue;
-        width: 296px;
-        height: 494px;
-        right: -230px;
-        top: 360px;
+        width: 15.416666666666666vw;
+        height: 100%;
+        right: 0vw;
+        top: 10%;
 
 
     }
@@ -114,11 +123,11 @@
         position: absolute;
         background-blend-mode: multiply;
         // border: 5px solid blue;
-        width: 296px;
-        height: 494px;
-        right: -230px;
-        top: 1640px;
-        z-index: 2;
+        width: 15.416666666666666vw;
+        height: 100%;
+        right: 0vw;
+        top: 48.5%;
+        z-index: 3;
 
 
     }
@@ -129,10 +138,10 @@
         position: absolute;
         background-blend-mode: multiply;
         // border: 5px solid blue;
-        width: 296px;
-        height: 494px;
+        width: 15.416666666666666vw;
+        height: 100%;
         left: 0px;
-        top: 2290px;
+        top: 70%;
         z-index: 2;
 
 
@@ -158,10 +167,10 @@
         // border: 5px solid green;
         position: absolute;
         width: 100%;
-        height: 480px;
+        height: 15%;
         left: 0px;
         top: 0px;
-        z-index: 3;
+        z-index: 4;
         background-color: #000000;
         opacity: 40%;
     }
@@ -172,7 +181,7 @@
         width: 100%;
         height: 13rem;
         top: 11.875rem;
-        z-index: 3;
+        z-index: 4;
 
         & .titulo-1 {
             color: $blanco;
@@ -201,9 +210,10 @@
     & .img-estancia {
         position: absolute;
         width: 100%;
-        height: 480px;
+        height: 15%;
         left: 0px;
         top: 0px;
+        z-index: 3;
         background: rgba(0, 0, 0, 0.4);
         background-image: url(/assets/img/img/content/21.jpg);
         background-size: cover;
@@ -224,7 +234,7 @@
     position: absolute;
     // border: 5px solid yellow;
     width: 100%;
-    top: 560px;
+    top: 15%;
     padding: 1rem;
     z-index: 3;
 
@@ -239,33 +249,33 @@
     & p {
         color: $verde;
         font-size: 16px;
-        line-height: 30px;
+        line-height: 15px;
         letter-spacing: 0.35px;
         margin-bottom: 30px;
     }
 
     .carousel-item {
-        min-height: 280px;
+        min-height: 29.882604055496266vh;
 
         & img {
-            margin-bottom: 50;
+            margin-bottom: 5.336179295624333vh;
         }
     }
 
 
     & .footer-carousel {
         //  border: 5px solid yellow;
-        height: 50px;
+        height: 6.336179295624333vh;
         bottom: 0px;
         left: 0px;
         right: 0px;
         width: 100%;
         background-color: $beige-claro;
-        padding-bottom: 50px;
+        padding-bottom: 5.336179295624333vh;
 
         & p {
             color: $verde;
-            font-size: 12px;
+            font-size: 0.75rem;
         }
     }
 }
@@ -274,12 +284,14 @@
     position: absolute;
     //  border: 5px solid yellow;
     width: 100%;
-    top: 1074px;
+    max-height: 73.63927427961579vh;
+    top: 28%;
     padding: 1rem;
+    z-index: 2;
 
     & h2 {
-        margin-top: 30px;
-        margin-bottom: 50px;
+        margin-top: 1.875rem;
+        margin-bottom: 3.125rem;
         color: $verde;
         font-size: 32px;
         line-height: 45px;
@@ -287,45 +299,48 @@
     }
 
     & .img-ext {
-        padding-top: 24px;
+        padding-top: 1.5rem;
 
     }
 
     & .exterior-img {
         width: 100%;
-        max-height: 120px;
+        max-height: 12.8068303094984vh;
     }
 
     & p {
-        padding-top: 40px;
+        padding-top: 2.5rem;
         color: $verde;
-        font-size: 16px;
-        line-height: 30px;
+        font-size: 15px;
+        line-height: 1.25rem;
         letter-spacing: 0.35px;
     }
 
 }
 
 .estancia-cb {
-    height: 690px;
+    height: 80.63927427961579vh;
     position: absolute;
-    bottom: 1200px;
+    top: 48%;
+
 }
 
 .estancia-cb2 {
-    top: 480px;
+    top: 0px;
     position: absolute;
-    height: 1340px;
+    height: 184.63180362860192vh;
 }
 
 .Instalaciones {
-    height: 690px;
+    background-color: rgba(239, 228, 212, 0.5); //excepcion para beige 50% opacidad
+    //height: 73.63927427961579vh;
     position: absolute;
-    bottom: 1200px;
+    top: 48%;
     width: 100%;
     z-index: 3;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0.225rem;
+    padding-right: 0.625rem;
+    padding-bottom: 2rem;
 
     & .row {
         margin-left: 0px;
@@ -333,12 +348,12 @@
     }
 
     & h2 {
-        padding-left: 18px;
+        padding-left: 1.125rem;
         font-size: 32px;
-        line-height: 45px;
+        line-height: 1.875rem;
         color: $verde;
-        margin-top: 70px;
-        margin-bottom: 30px;
+        margin-top: 4.375rem;
+        margin-bottom: 1.875rem;
     }
 
     & .marg-der {
@@ -352,11 +367,11 @@
     & .areas-inst {
         border-bottom: 1px solid $mostaza-claro;
         width: 90%;
-        margin-left: 10px;
+        margin-left: 0.625rem;
 
         & h3 {
             font-size: 16px;
-            line-height: 30px;
+            line-height: 1.25rem;
             color: $verde;
 
         }
@@ -376,16 +391,15 @@
 
 .normasCasa {
     position: absolute;
-    bottom: 715px;
-    // border: 5px solid yellow;
+    top: 68%; // border: 5px solid yellow;
     width: 100%;
-    height: 490px;
-    padding: 25px;
+    height: 52.294557097118464vh;
+    padding: 1.563rem;
 
     & .normas {
         border-right: 1px solid $mostaza-claro;
-        margin-top: 15px;
-        margin-bottom: 15px;
+        margin-top: 0.938rem;
+        margin-bottom: 0.938rem;
 
 
     }
@@ -402,18 +416,149 @@
 
     & hr {
         position: static;
-        width: 180px;
+        width: 9.375vw;
         height: 0px;
         border-bottom: 1px solid $mostaza-claro;
         opacity: 100%;
     }
 }
 
+.en-estancia {
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+    background-color:rgba(239, 228, 212, 0.5); //excepcion para beige 50% opacidad ;
+    padding-top: 15rem;
+
+    & .titulo-2 {
+        color: $verde;
+        font-size: 32px;
+        line-height: 2.813rem;
+        margin-top: 5rem;
+    }
+
+    & .texto-1 {
+        color: $verde;
+        font-size: 16px;
+        line-height: 1.875rem;
+    }
+
+    & .card-act {
+        padding: 0.625rem;
+        z-index: 3;
+
+    }
+
+    & .card {
+        background-color: $blanco !important;
+        z-index: 5;
+        padding: 0px;
+        width: 45%;
+        border-radius: 3.28125px;
+        box-shadow: 0px 0px 0.65625px rgba(20, 20, 20, 0.04), 0px 0px 5.25px rgba(20, 20, 20, 0.08);
+        border: none;
+        margin: 01rem 0.344rem;
+        z-index: 3;
+
+    }
+
+    & img {
+        width: 100%;
+        height: 14.08751334044824vh;
+        z-index: 3;
+    }
+
+
+    & .tarj-title {
+        margin-top: 0.813rem;
+        padding-left: 0.625rem;
+        color: $verde;
+        font-size: 16px;
+        line-height: 1.875rem;
+
+    }
+
+    & .card-text {
+        padding-left: 0.625rem;
+        padding-right: 0.625rem;
+        margin-bottom: 0.625rem;
+        color: $verde;
+        font-size: 12px;
+        line-height: 1.063rem;
+        text-align: left;
+
+
+    }
+}
+
+.alrededores {
+    position: absolute;
+    top: 45%;
+    z-index: 4;
+
+
+    & h1 {
+        padding-left: 0.3rem;
+        margin-bottom: 3rem;
+    }
+
+    & p {
+        padding-left: 0.3rem;
+    }
+
+    & .titulo-2 {
+        color: $verde;
+        font-size: 32px;
+        line-height: 45px;
+
+    }
+
+    & .texto-1 {
+        color: $verde;
+        font-size: 16px;
+        line-height: 30px;
+
+    }
+
+    & .actividad {
+        padding: 0px 1rem 1rem;
+
+        & .titulo-rojo {
+            font-family: $mess-reg;
+            font-size: 22px;
+            line-height: 56px;
+            color: $tierra;
+
+        }
+
+        & .text-act {
+            color: $verde;
+            font-family: $mess-reg;
+            font-size: 12px;
+            line-height: 20px;
+        }
+
+        & img {
+            height: 11.813rem;
+            width: 100%;
+            margin-bottom: 1rem;
+            box-shadow: 0px 1px 8px 2px rgba(20, 20, 20, 0.08);
+            filter: drop-shadow(0px 0px 1px rgba(20, 20, 20, 0.08));
+            border-radius: 5px;
+
+
+
+
+
+        }
+    }
+}
+
+
 .footer {
     position: absolute;
     width: 100%;
-    height: 660px;
-    left: 0px;
+    //height: 65.4375667022412vh;
     bottom: 0px;
     background: rgba(2, 59, 49, 0.8);
     display: flex;
@@ -446,11 +591,10 @@
 
 
     & .logo {
-        height: 220px;
+        height: 23.479188900747065vh;
 
         & img {
             margin-left: 18px;
-            margin-top: 40px;
             width: 140px;
             height: 140px;
         }
@@ -573,7 +717,7 @@
     }
 
     & .datos-contacto {
-        height: 220px;
+        //height: 23.479188900747065vh;
         color: $blanco;
         margin-left: 15px;
 
