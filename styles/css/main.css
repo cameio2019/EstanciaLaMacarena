@@ -137,6 +137,18 @@
   .index {
     height: 100%;
   }
+  .index header {
+    max-height: 70vh !important;
+    min-height: 70vh !important;
+  }
+  .index header .jumbotron {
+    max-height: 70vh !important;
+    min-height: 70vh !important;
+  }
+  .index header .color-overlay {
+    min-height: 10vh;
+    max-height: 70vh;
+  }
   .index .laurel-der2 {
     background-image: url("/assets/img/img/laurel derecha.svg");
     background-repeat: no-repeat;
@@ -267,6 +279,135 @@
     width: 15.625rem !important;
     margin-left: 2.5rem !important;
   }
+}
+
+.contact-banner {
+  max-height: 70vh !important;
+  min-height: 70vh !important;
+}
+.contact-banner .jumbotron {
+  min-height: 60vh !important;
+}
+.contact-banner .color-overlay {
+  max-height: 60vh;
+  min-height: 59vh !important;
+}
+
+.footer-contacto {
+  position: relative !important;
+}
+
+.Contacto {
+  background-color: rgba(239, 228, 212, 0.5);
+}
+@media (max-width: 599px) {
+  .Contacto .titulo-1 {
+    font-family: Recoleta-Regular;
+    color: #033B31;
+    font-size: 32px;
+    line-height: 45px;
+    text-align: left !important;
+    padding: 3rem 0.3rem 1.3rem 1.8rem !important;
+  }
+  .Contacto .row {
+    flex-direction: column;
+    margin-left: 1rem !important;
+  }
+  .Contacto .row .r-mobile {
+    margin-left: 0px !important;
+    padding-left: 0px;
+    width: 100%;
+  }
+  .Contacto .row .r-mobile .titulo-2 {
+    color: #033B31;
+    font-family: messina-regular;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .Contacto .row .r-mobile .texto-2 {
+    font-size: 12px;
+    line-height: 17px;
+    font-family: messina-regular;
+    color: #033B31;
+  }
+  .Contacto .row .r-mobile .texto-3 {
+    font-size: 12px;
+    line-height: 17px;
+    font-family: messina-regular;
+    color: #033B31;
+  }
+  .Contacto .row .col-mob {
+    width: 100%;
+  }
+  .Contacto .row .col-mob .titulo-2 {
+    color: #033B31;
+    font-family: messina-regular;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .Contacto .row .col-mob input,
+.Contacto .row .col-mob textarea {
+    font-size: 12px;
+    line-height: 17.8px;
+    font-family: messina-regular;
+    color: #033B31;
+    width: 17rem;
+  }
+  .Contacto .row .col-mob textarea {
+    height: 8rem;
+  }
+  .Contacto .row .col-mob label {
+    font-size: 12px;
+    line-height: 17px;
+    font-family: messina-regular;
+    color: #033B31;
+  }
+  .Contacto .row .col-mob .btnHero {
+    width: 15.625rem !important;
+    height: 3.5rem;
+  }
+  .Contacto .row .col-mob .btnHero #text {
+    margin-top: -1rem;
+  }
+  .Contacto .row .rrss-banner {
+    width: 100%;
+  }
+  .Contacto .row .rrss-banner .links-rrss--link {
+    display: inline-flex;
+  }
+  .Contacto .row .rrss-banner .links-rrss--link h4 {
+    margin-right: 8rem;
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+
+@media (max-width: 599px) {
+  .text-left {
+    margin-bottom: 4rem;
+  }
+  .text-left iframe {
+    max-height: 250px;
+  }
+}
+@media (max-width: 599px) {
+  .text-left .titulo-1 {
+    color: #033B31;
+    font-size: 32px;
+    line-height: 45px;
+    font-family: Recoleta-Regular;
+  }
+}
+
+.laurel-der2-contacto {
+  background-image: url("/assets/img/img/laurel derecha.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-blend-mode: multiply;
+  width: 15.4166666667vw;
+  height: 40%;
+  right: 0vw;
+  z-index: 1;
 }
 
 header {
