@@ -855,7 +855,7 @@ body {
     height: 100%;
   }
   .footer .logo img {
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 54px;
     margin-bottom: 155px;
     width: 145px;
@@ -875,7 +875,7 @@ body {
 }
 @media (min-width: 800px) {
   .footer .links-rrss {
-    width: 100%;
+    width: 60%;
     height: 100%;
   }
 }
@@ -892,10 +892,9 @@ body {
 }
 @media (min-width: 800px) {
   .footer .links-rrss--link.seguinos {
-    position: absolute;
+    position: relative;
     width: 200px;
     height: 200px;
-    right: 208px;
     top: 82px;
   }
 }
