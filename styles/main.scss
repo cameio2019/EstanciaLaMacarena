@@ -92,6 +92,14 @@
         position: relative;
     }
 
+    & .index-act{
+        margin-bottom: 2rem !important;
+
+        & .btnHero {
+            width: 250px !important;
+        }
+    }
+
     @include telefono {
         height: 100%;
 

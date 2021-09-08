@@ -76,12 +76,12 @@
 .navbar .r-rev {
   display: none !important;
 }
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .navbar .r-rev {
     display: flex !important;
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 500px) and (max-width: 799px) {
   .navbar .r-rev {
     display: flex !important;
   }
@@ -102,7 +102,7 @@
   position: absolute;
   top: -10px;
 }
-@media (min-width: 1200px) {
+@media (min-width: 800px) {
   .navbar .container-sm .navbar-brand img {
     position: absolute;
   }
@@ -133,7 +133,13 @@
 .index .footer {
   position: relative;
 }
-@media (max-width: 599px) {
+.index .index-act {
+  margin-bottom: 2rem !important;
+}
+.index .index-act .btnHero {
+  width: 250px !important;
+}
+@media (max-width: 499px) {
   .index {
     height: 100%;
   }
@@ -300,7 +306,7 @@
 .Contacto {
   background-color: rgba(239, 228, 212, 0.5);
 }
-@media (max-width: 599px) {
+@media (max-width: 499px) {
   .Contacto .titulo-1 {
     font-family: Recoleta-Regular;
     color: #033B31;
@@ -382,7 +388,7 @@
   }
 }
 
-@media (max-width: 599px) {
+@media (max-width: 499px) {
   .text-left {
     margin-bottom: 4rem;
   }
@@ -390,7 +396,7 @@
     max-height: 250px;
   }
 }
-@media (max-width: 599px) {
+@media (max-width: 499px) {
   .text-left .titulo-1 {
     color: #033B31;
     font-size: 32px;

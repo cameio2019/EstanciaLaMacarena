@@ -18,7 +18,7 @@
 /*media queries*/
 
 @mixin telefono {
-    @media (max-width: 599px) {
+    @media (max-width: 499px) {
         @content;
     }
 }
@@ -26,13 +26,13 @@
 
 
 @mixin tablet-horizontal {
-    @media (min-width: 600px) {
+    @media (min-width: 500px) and (max-width:799px) {
         @content;
     }
 }
 
 @mixin web-laptop {
-    @media (min-width: 1200px) {
+    @media (min-width: 800px) {
         @content;
     }
 }
