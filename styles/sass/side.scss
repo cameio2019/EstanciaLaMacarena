@@ -943,7 +943,7 @@ line-height: 25px;
             flex-direction: row;
 
             @include web-laptop {
-                width: 100%;
+                width: 60%;
                 height: 100%;
             }
 
@@ -961,10 +961,10 @@ line-height: 25px;
                 &.seguinos {
 
                     @include web-laptop {
-                        position: absolute;
+                        position: relative;
                         width: 200px;
                         height: 200px;
-                        right: 208px;
+                        // right: 208px;
                         top: 82px;
 
                     }

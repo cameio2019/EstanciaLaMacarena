@@ -1,0 +1,538 @@
+/*tipografias*/
+/*media queries*/
+/* COMO USAR LOS MEDIA QUERIES..
+
+.header-title{
+    font-size: 2rem;
+
+    @include telefono{
+        font size: 1 rem;
+    }
+}
+*/
+/*paleta cromatica*/
+/*tipografia*/
+/*messina*/
+@font-face {
+  font-family: "messina-book";
+  src: url("/assets/Tipografias/Messina/MessinaSans-Book.eot");
+  src: url("/assets/Tipografias/Messina/MessinaSans-Book.eot?#iefix") format("embedded-opentype"), url("/assets/Tipografias/Messina/MessinaSans-Book.woff") format("woff"), url("/assets/Tipografias/Messina/MessinaSans-Book.ttf") format("truetype"), url("/assets/Tipografias/Messina/MessinaSans-Book.svg#messina-book") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "messina-Regular";
+  src: url("/assets/Tipografias/Messina/MessinaSans-Regular.eot");
+  src: url("/assets/Tipografias/Messina/MessinaSans-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/Tipografias/Messina/MessinaSans-Regular.woff") format("woff"), url("/assets/Tipografias/Messina/MessinaSans-Regular.ttf") format("truetype"), url("/assets/Tipografias/Messina/MessinaSans-Regular.svg#messina-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "messina-SemiBold";
+  src: url("/assets/Tipografias/Messina/MessinaSans-SemiBold.eot");
+  src: url("/assets/Tipografias/Messina/MessinaSans-SemiBold.eot?#iefix") format("embedded-opentype"), url("/assets/Tipografias/Messina/MessinaSans-SemiBold.woff") format("woff"), url("/assets/Tipografias/Messina/MessinaSans-SemiBold.ttf") format("truetype"), url("/assets/Tipografias/Messina/MessinaSans-SemiBold.svg#messina-SemiBold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*recoleta*/
+@font-face {
+  font-family: "Recoleta-Light";
+  src: url("/assets/Tipografias/Recoleta/Recoleta-Light.eot");
+  src: url("/assets/Tipografias/Recoleta/Recoleta-Light.eot?#iefix") format("embedded-opentype"), url("/assets/Tipografias/Recoleta/Recoleta-Light.woff") format("woff"), url("/assets/Tipografias/Recoleta/Recoleta-Light.ttf") format("truetype"), url("/assets/Tipografias/Recoleta/Recoleta-Light.svg#Recoleta-Light") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Recoleta-Regular";
+  src: url("/assets/Tipografias/Recoleta/Recoleta-Regular.eot");
+  src: url("/assets/Tipografias/Recoleta/Recoleta-Regular.eot?#iefix") format("embedded-opentype"), url("/assets/Tipografias/Recoleta/Recoleta-Regular.woff") format("woff"), url("/assets/Tipografias/Recoleta/Recoleta-Regular.ttf") format("truetype"), url("/assets/Tipografias/Recoleta/Recoleta-Regular.svg#Recoleta-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*sombras*/
+/*tipografias*/
+/*media queries*/
+/* COMO USAR LOS MEDIA QUERIES..
+
+.header-title{
+    font-size: 2rem;
+
+    @include telefono{
+        font size: 1 rem;
+    }
+}
+*/
+/*ESTILOS LIBRES*/
+.icon-blanco {
+  fill: #F9F9F9;
+}
+
+.navbar {
+  height: 80px !important;
+  padding: 0px !important;
+  border: 0px !important;
+  z-index: 99;
+}
+
+.navbar .r-rev {
+  display: none !important;
+}
+
+@media (min-width: 800px) {
+  .navbar .r-rev {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 799px) {
+  .navbar .r-rev {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+}
+
+.navbar-toggler {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.navbar .container-sm {
+  max-height: 80px;
+  padding: 0px;
+}
+
+.navbar .container-sm .navbar-brand {
+  height: 70px;
+  padding: 0px;
+}
+
+.navbar .container-sm .navbar-brand img {
+  position: absolute;
+  top: -10px;
+}
+
+@media (min-width: 800px) {
+  .navbar .container-sm .navbar-brand img {
+    position: absolute;
+  }
+}
+
+.navbar .container-sm .nav-link {
+  padding: 15px;
+}
+
+/*@mixin telefono {
+    @media (min-width: 599px) {
+        .navbar{
+            height: auto;
+            & #social{
+                height: 100%;
+                background-color: #FFFFFF;
+            }
+        }
+    }
+}*/
+/*INDEX STYLE*/
+.index {
+  position: relative;
+  height: 100%;
+}
+
+.index .ofrecemos .red-line {
+  display: none;
+}
+
+.index .footer {
+  position: relative;
+}
+
+.index .index-act {
+  margin-bottom: 2rem !important;
+}
+
+.index .index-act .btnHero {
+  width: 250px !important;
+}
+
+@media (max-width: 499px) {
+  .index {
+    height: 100%;
+  }
+  .index header {
+    max-height: 70vh !important;
+    min-height: 70vh !important;
+  }
+  .index header .jumbotron {
+    max-height: 70vh !important;
+    min-height: 70vh !important;
+  }
+  .index header .color-overlay {
+    min-height: 10vh;
+    max-height: 70vh;
+  }
+  .index .laurel-der2 {
+    background-image: url("/assets/img/img/laurel derecha.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-blend-mode: multiply;
+    width: 15.416666666666666vw;
+    height: 40%;
+    right: 0vw;
+    top: 30.5%;
+    z-index: 1;
+  }
+  .index .laurel-izq {
+    background-image: url("/assets/img/img/laurel izquierda.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-blend-mode: multiply;
+    width: 15.416666666666666vw;
+    height: 40%;
+    left: 0px;
+    top: 55%;
+    z-index: 2;
+  }
+  .index .t-banner {
+    padding: 0rem 2.5rem 0rem;
+    text-align: center;
+  }
+  .index .titulo-3 {
+    padding: 0rem 2.5rem 0rem;
+    text-align: center;
+  }
+  .index .btnHero {
+    padding: .1rem .2rem;
+    width: 11rem !important;
+    height: 3rem !important;
+  }
+  .index .btnHero .fa-arrow-right {
+    margin-left: 1rem !important;
+  }
+  .index .encontDiv .bannner-map {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .index .encontDiv .bannner-map .maps {
+    background-color: transparent;
+    -webkit-box-shadow: 5px 6px 4px 3px #033B31;
+            box-shadow: 5px 6px 4px 3px #033B31;
+    padding: 0px !important;
+  }
+  .index .encontDiv .bannner-map .maps iframe {
+    height: 16.875rem;
+  }
+  .index .encontDiv .bannner-map .btnHero {
+    width: 15.625rem !important;
+    margin-bottom: 1rem;
+    margin-left: 0.938rem;
+    z-index: 3;
+  }
+  .index .encontDiv .titulo-1 {
+    font-size: 32px;
+    line-height: 45px;
+    width: 100%;
+  }
+  .index .ofrecemos .titulo-1 {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .index .ofrecemos .p-desc {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: messina-regular;
+    color: #033B31;
+    margin-top: 1.5rem;
+  }
+  .index .ofrecemos .mb-5 {
+    margin-bottom: 1rem !important;
+  }
+  .index .ofrecemos .mt-5 {
+    margin-top: 1rem !important;
+  }
+  .index .ofrecemos .red-line {
+    display: block;
+    border-top: #9E4F31 solid 1px;
+    margin-bottom: 1rem;
+    margin-top: 1rem !important;
+  }
+  .index .ofrecemos .btnHero {
+    width: 15.625rem !important;
+    margin-left: 2.2rem !important;
+  }
+  .index .index-act {
+    margin-bottom: 2rem !important;
+  }
+  .index .index-act .titulo-1 {
+    color: #033B31;
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .index .index-act .titulo-2 {
+    color: #033B31;
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .index .index-act .col {
+    padding: 0.3rem;
+  }
+  .index .index-act .card {
+    position: relative;
+    height: 100%;
+    width: 45.75vw;
+    -webkit-box-shadow: 0px 0px 0.65625px rgba(20, 20, 20, 0.04), 0px 0px 5.25px rgba(20, 20, 20, 0.08);
+            box-shadow: 0px 0px 0.65625px rgba(20, 20, 20, 0.04), 0px 0px 5.25px rgba(20, 20, 20, 0.08);
+    border-radius: 3.28125px;
+    border: none;
+  }
+  .index .index-act .card img {
+    height: 8.25rem;
+  }
+  .index .index-act .card .card-title {
+    color: #033B31;
+    font-size: 16px;
+    line-height: 25px;
+    font-family: messina-regular;
+  }
+  .index .index-act .card .card-text {
+    font-family: messina-regular;
+    color: #033B31;
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .index .index-act .btnHero {
+    width: 15.625rem !important;
+    margin-left: 2.5rem !important;
+  }
+}
+
+.contact-banner {
+  max-height: 70vh !important;
+  min-height: 70vh !important;
+}
+
+.contact-banner .jumbotron {
+  min-height: 60vh !important;
+}
+
+.contact-banner .color-overlay {
+  max-height: 60vh;
+  min-height: 59vh !important;
+}
+
+.footer-contacto {
+  position: relative !important;
+}
+
+.Contacto {
+  background-color: rgba(239, 228, 212, 0.5);
+}
+
+@media (max-width: 499px) {
+  .Contacto .titulo-1 {
+    font-family: Recoleta-Regular;
+    color: #033B31;
+    font-size: 32px;
+    line-height: 45px;
+    text-align: left !important;
+    padding: 3rem .3rem 1.3rem 1.8rem !important;
+  }
+  .Contacto .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 1rem !important;
+  }
+  .Contacto .row .r-mobile {
+    margin-left: 0px !important;
+    padding-left: 0px;
+    width: 100%;
+  }
+  .Contacto .row .r-mobile .titulo-2 {
+    color: #033B31;
+    font-family: messina-regular;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .Contacto .row .r-mobile .texto-2 {
+    font-size: 12px;
+    line-height: 17px;
+    font-family: messina-regular;
+    color: #033B31;
+  }
+  .Contacto .row .r-mobile .texto-3 {
+    font-size: 12px;
+    line-height: 17px;
+    font-family: messina-regular;
+    color: #033B31;
+  }
+  .Contacto .row .col-mob {
+    width: 100%;
+  }
+  .Contacto .row .col-mob .titulo-2 {
+    color: #033B31;
+    font-family: messina-regular;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .Contacto .row .col-mob input,
+  .Contacto .row .col-mob textarea {
+    font-size: 12px;
+    line-height: 17.8px;
+    font-family: messina-regular;
+    color: #033B31;
+    width: 17rem;
+  }
+  .Contacto .row .col-mob textarea {
+    height: 8rem;
+  }
+  .Contacto .row .col-mob label {
+    font-size: 12px;
+    line-height: 17px;
+    font-family: messina-regular;
+    color: #033B31;
+  }
+  .Contacto .row .col-mob .btnHero {
+    width: 15.625rem !important;
+    height: 3.5rem;
+  }
+  .Contacto .row .col-mob .btnHero #text {
+    margin-top: -1rem;
+  }
+  .Contacto .row .rrss-banner {
+    width: 100%;
+  }
+  .Contacto .row .rrss-banner .links-rrss--link {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .Contacto .row .rrss-banner .links-rrss--link h4 {
+    margin-right: 8rem;
+    font-size: 12px;
+    line-height: 17px;
+  }
+}
+
+@media (max-width: 499px) {
+  .text-left {
+    margin-bottom: 4rem;
+  }
+  .text-left iframe {
+    max-height: 250px;
+  }
+}
+
+@media (max-width: 499px) {
+  .text-left .titulo-1 {
+    color: #033B31;
+    font-size: 32px;
+    line-height: 45px;
+    font-family: Recoleta-Regular;
+  }
+}
+
+.laurel-der2-contacto {
+  background-image: url("/assets/img/img/laurel derecha.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  background-blend-mode: multiply;
+  width: 15.416666666666666vw;
+  height: 40%;
+  right: 0vw;
+  z-index: 1;
+}
+
+header {
+  background: no-repeat center center;
+  background-size: cover;
+  color: white;
+  min-height: 100vh;
+}
+
+.navbar {
+  background: #F9F9F9 !important;
+  /*     opacity: 0.8 !important; */
+  color: #033B31 !important;
+}
+
+hr {
+  color: #9E4F31;
+  size: 50%;
+}
+
+.btnHero {
+  display: block;
+  width: 100% !important;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  background: #9F5030;
+  border-radius: 2px;
+  color: #F9F9F9;
+  font-family: messina-regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 56px;
+}
+
+.btnHero .btnHero:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.color-overlay {
+  min-height: 100vh;
+  background-color: rgba(24, 24, 24, 0.3);
+}
+
+@media (max-width: 767.98px) {
+  .color-overlay {
+    min-height: 100vh;
+  }
+}
+
+.maps {
+  background-color: #033B31;
+}
+
+.encontDiv {
+  background-color: rgba(239, 228, 212, 0.5);
+}
+
+.border_input {
+  border-color: #D28E4D !important;
+}
+
+.laurel {
+  /* 1 1 */
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background-blend-mode: multiply;
+}
+
+#ok {
+  width: 151px;
+  height: 151px;
+}
+
+.OK {
+  background: rgba(239, 228, 212, 0.5);
+}
+/*# sourceMappingURL=main.css.map */
