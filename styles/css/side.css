@@ -299,7 +299,7 @@ body {
   top: 0px;
   z-index: 3;
   background: rgba(0, 0, 0, 0.4);
-  background-image: url(/assets/img/img/content/21.jpg);
+  background-image: url(./assets/img/img/content/21.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 40% bottom;
