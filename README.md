@@ -5,7 +5,7 @@ Proyecto realizado para cliente Estancia la Macarena.
 ## Demo
 Ver [Sitio](https://lamacarenaestancia.com/)!
 
-![pbg](./bgdemo.png)
+![pbg](./estDemo.png)
 
 ## Tecnologías
 
